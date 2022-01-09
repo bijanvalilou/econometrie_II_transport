@@ -1,5 +1,13 @@
 # econometrie_II_transport
 
+## Présentation des fichiers 
+
+ - Econometrie_II.Rproj : projet avec tous les fichiers data, R, Rmd inclus dans Rstudio
+ - Projet_econometrie_II.Rmd : fichier "code"
+ - Transport_France2019.xlsx : data
+ - autre fichier .rmd : rapport
+
+
 ## Utilisation du Github
 
 
