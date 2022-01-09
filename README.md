@@ -26,12 +26,16 @@ Procédure actuelle à suivre : Pour utiliser R Studio et Github et modifier le 
  -  Une fois la copie locale effectuée, à partir de github desktop, vous pouvez ouvrir le projet R grâce à "Open in R Studio". 
      -  Vous pouvez, par exemple, ouvrir le test_file, puis écrire une nouvelle ligne "test_yourName" 
      -  Enregistrer le changement sur Rstudio (fichier+projet) et fermer Rstudio 
-     -  Cliquer, dans la copie locale de Github Desktop, sur "Commit to Master" 
+     -  Cliquer, dans la copie locale de Github Desktop, sur "Commit to Master"  en donnant un nom au commit ('update' par exemple)
      -  Cliquer, dans la copie locale de Github Desktop, sur "Push Origin" pour envoyer le changement sur le requisitory commun GitHub 
  -  Vous pouvez Pull sur Github Desktop les changements faits par d'autres utilisateurs. Si Github Desktop ne vous le propose pas automatiquement, vous pouvez cliquer sur le bouton refresh "Fetch Origin", puis "Pull origin"
 
+## RMarkdown
+
 Synthaxe Markdown : 
 https://bookdown.org/yihui/rmarkdown/markdown-syntax.html
+
+Les blocs de code peuvent être intégrées grâce au bouton +C. Ces blocs de code peuvent être exécutées par R, sans être inclus dans le PDF final. C'est intéressant pour afficher des graphiques de manière simple, en profitant de l'environnement commun créé par le fichier .proj 
 
 Certaines commandes Latex peuvent être intégrées grâce à l'usage du compilateur Lualuatex. 
 Pour knit un fichier .rmd en pdf, il faut avoir une distribution de Latex sur son ordinateur (Miktex, Tex Live...) : j'utilise Miktex. 
