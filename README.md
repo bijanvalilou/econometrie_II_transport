@@ -26,3 +26,4 @@ Synthaxe Markdown :
 https://bookdown.org/yihui/rmarkdown/markdown-syntax.html
 
 Certaines commandes Latex peuvent être intégrées grâce à l'usage du compilateur Lualuatex. 
+Pour knit un fichier .rmd en pdf, il faut avoir une distribution de Latex sur son ordinateur (Miktex, Tex Live...) : j'utilise Miktex. 
