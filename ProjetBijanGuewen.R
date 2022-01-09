@@ -9,6 +9,10 @@ Transport_France2019 <- read_excel("C:/Users/Guewen Heslan/Downloads/Transport_F
 #CPI <- Transport_France2019$CPI
 #QDieselCamion <- Transport_France2019$Qdieselcamion
 
+
+
+
+
 ##Séries temporelles
 Qtt_Trsp_route.ts <- ts(Transport_France2019$Qtt_Trsp_route, start=c(1985) , end=c(2019), frequency=1)
 Qtt_Trsp_train.ts <- ts(Transport_France2019$Qtt_Trsp_train, start=c(1985) , end=c(2019), frequency=1)
