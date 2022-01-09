@@ -11,7 +11,7 @@ Voici la documentation que j'ai utilisée pour connecter RMarkdwon et ce requisi
 https://andrewmaclachlan.github.io/CASA0005repo/git-github-and-rmarkdown.html
 
 Procédure actuelle à suivre : Pour utiliser R Studio et Github et modifier le requisitory présent, vous devez :
- - envoyer à Bijan votre mail git pour être ajouté en tant que collaborateur
+ - envoyer à Bijan votre mail git pour être ajouté en tant que collaborateur (bon)
  -  Installer Github Desktop
  -  Sur le requisitory présent (site web), cliquez sur le bouton Code > Open with Github Desktop
  -  Une fois ouvert dans Github Desktop, vous cliquez sur "Clone". Vous avez une copie locale du requisitory sur votre ordinateur. 
