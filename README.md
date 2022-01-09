@@ -32,7 +32,7 @@ Procédure actuelle à suivre : Pour utiliser R Studio et Github et modifier le 
 
 ## RMarkdown
 
-Synthaxe Markdown : 
+Syntaxe Markdown : 
 https://bookdown.org/yihui/rmarkdown/markdown-syntax.html
 
 Les blocs de code peuvent être intégrées grâce au bouton +C. Ces blocs de code peuvent être exécutées par R, sans être inclus dans le PDF final. C'est intéressant pour afficher des graphiques de manière simple, en profitant de l'environnement commun créé par le fichier .proj 
