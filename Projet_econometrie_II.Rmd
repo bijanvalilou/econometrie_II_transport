@@ -55,13 +55,15 @@ plot(CPI.ts, xlab = "Temps", ylab = "Indice de prix à la consommation")
 
 
 ```{r}
-vec <- c(X1,X2,X3)
-X <- matrix( vec, ncol=2) 
-Y=matrix(Y,n,1)
+n=length(Transport_France2019$Qdieselcamion)
+
+vec <- c(Transport_France2019$Pdiesel/Transport_France2019$CPI,Transport_France2019$GDP,Transport_France2019$Qtt_Trsp_route)
+X <- matrix( vec, ncol=3) 
+Y=matrix(Transport_France2019$Qdieselcamion,n,1)
 p=ncol(X);
 q=ncol(Y);
 
- y=log(Y) 
+ y=log(Y)
  x=log(X)
  
  nobs=cbind(1:n)
