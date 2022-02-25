@@ -120,7 +120,9 @@ for(i in 9:30) {
 
 print(sctest(y ~ x, type = "Chow", point = i) )
 }
+
 ```
+
 
 
 
