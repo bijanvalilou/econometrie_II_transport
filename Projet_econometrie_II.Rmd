@@ -53,3 +53,36 @@ plot(GDP.ts, xlab = "Temps", ylab = "PIB en monnaie constante")
 plot(CPI.ts, xlab = "Temps", ylab = "Indice de prix à la consommation")
 ```
 
+
+```{r}
+vec <- c(X1,X2,X3)
+X <- matrix( vec, ncol=2) 
+Y=matrix(Y,n,1)
+p=ncol(X);
+q=ncol(Y);
+
+ y=log(Y) 
+ x=log(X)
+ 
+ nobs=cbind(1:n)
+ 
+ OLS=lm(formula = y ~ x)
+ 
+ summary(OLS)
+ 
+ names(OLS)
+xc = cbind(1,x) 
+bhat = OLS$coefficients 
+yf = xc %*% bhat
+res = y - yf
+
+
+d1 = t(res) %*% res
+d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
+dw = d2/d1
+print (dw)
+
+```
+
+
+
