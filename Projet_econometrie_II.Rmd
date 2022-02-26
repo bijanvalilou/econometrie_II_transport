@@ -8,6 +8,7 @@ library(usethis)
 library(readxl)
 library(gitcreds)
 library(strucchange)
+library(gets)
 ```
 
 ```{r}
@@ -59,8 +60,8 @@ q=ncol(Y);
 k=ncol(X);
 K=k+1
 
- y=log(Y)
- x=log(X)
+ y=Y
+ x=X
  
  nobs=cbind(1:n)
  
@@ -122,6 +123,50 @@ print(sctest(y ~ x, type = "Chow", point = i) )
 }
 
 ```
+
+
+```{r}
+n=length(Transport_France2019$Qdieselcamion)
+
+P1 <- replicate(35, 0)
+P1[1:16] <-  Transport_France2019$Pdiesel[1:16]/Transport_France2019$CPI[1:16]
+
+P2 <- replicate(35, 0)
+P2[17:35] <-  Transport_France2019$Pdiesel[17:35]/Transport_France2019$CPI[17:35]
+
+vec <- c(P1,P2, Transport_France2019$"PIB en volume (en milliards d'euros 2014)",Transport_France2019$Qtt_Trsp_route)
+X <- matrix( vec, ncol=4) 
+Y=matrix(Transport_France2019$Qdieselcamion,n,1)
+q=ncol(Y);
+k=ncol(X);
+K=k+1
+
+ y=Y
+ x=X
+ 
+ nobs=cbind(1:n)
+ 
+ OLS=lm(formula = y ~ x)
+ 
+ summary(OLS)
+ 
+ names(OLS)
+xc = cbind(1,x) 
+bhat = OLS$coefficients 
+yf = xc %*% bhat
+res = y - yf
+scr = t(res) %*% res
+
+
+d1 = t(res) %*% res
+d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
+dw = d2/d1
+print (dw)
+
+
+
+```
+
 
 
 
