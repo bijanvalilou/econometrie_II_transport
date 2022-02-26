@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  26 FEB 2022 15:55
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  26 FEB 2022 16:39
  restricted system commands enabled.
 **Projet_econometrie_II.tex
 (./Projet_econometrie_II.tex
@@ -1388,158 +1388,1346 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) (./Projet_econometrie_II.toc)
-\tf@toc=\write5
-
-\openout5 = Projet_econometrie_II.toc
-[1
+) [1
 
 {C:/Users/bijan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 209.
+Overfull \hbox (41.02702pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/bx/n/7 Qtt_Trsp_route|
+ []
 
-LaTeX Font Warning: Font shape `TU/lmtt/bx/it' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/sl' tried instead on input line 209.
 
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-1.pdf, id=17, 469.755
+Overfull \hbox (39.3326pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/bx/n/7 Qtt_Trsp_train|
+ []
+
+
+Overfull \hbox (3.69049pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/bx/n/7 Pdiesel|
+ []
+
+
+Overfull \hbox (6.13268pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/bx/n/7 QDiesel|
+ []
+
+
+Overfull \hbox (7.27827pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/bx/n/7 Qdiesel-
+ []
+
+
+Overfull \hbox (3.60135pt too wide) in paragraph at lines 200--200
+ \TU/lmr/bx/n/7 camion|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 128.4177|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 56.05900|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.6036981|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 7.576890e+11|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 61.27793|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 7999.565|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1253.767|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 134.5980|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 52.68600|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5168022|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 8.145960e+11|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 62.83349|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 8377.997|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1283.071|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 144.5150|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 52.70700|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5015573|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 8.559830e+11|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 64.90002|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 8874.912|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1315.942|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 161.1093|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 52.94600|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.4878369|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 9.252150e+11|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 66.65285|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 10083.360|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1378.359|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 168.6379|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 53.71200|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5152777|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 9.971210e+11|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 68.98456|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 11026.464|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1438.233|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 197.0160|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 52.24000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5411940|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.053546e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 71.18813|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 12847.488|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1480.286|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 202.6669|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 52.43001|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5457675|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.091705e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 73.47569|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 13088.602|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1495.802|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 208.3424|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 51.18059|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5274736|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.130983e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 75.21248|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 13520.352|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1519.725|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 204.2418|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 45.58251|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5594879|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.142119e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 76.79530|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 13736.333|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1510.171|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 219.2725|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 48.87126|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5884532|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.179867e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 78.06666|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 13944.659|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1545.786|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 234.5019|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 48.26607|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.5869287|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.218273e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 79.46911|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 14175.760|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1578.351|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 238.5483|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 50.11300|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.6524818|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.252266e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 81.04489|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 14106.159|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1600.653|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 246.9545|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 54.24600|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.6768736|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.292777e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 82.02062|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 14718.880|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1638.049|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 257.6484|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 54.09952|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.6433349|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.351896e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 82.55468|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 15658.433|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1696.833|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 266.8618|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 54.53802|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.6890696|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.400999e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 82.99812|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 16588.176|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1754.888|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 276.8614|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 57.72575|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.8460920|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.478585e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 84.38913|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 16920.644|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1823.744|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 290.4301|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 51.71830|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.8000000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.538200e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 85.76871|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 16846.184|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1859.922|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 293.3823|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 51.28819|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.7700000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.587829e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 87.41840|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17155.587|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1881.042|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 296.9908|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 48.05727|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.7900000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.630666e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 89.25285|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17034.634|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1896.526|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 314.9008|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 46.34837|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 0.8800000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.704019e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 91.16472|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17539.546|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1950.193|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 314.1489|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 40.70118|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.0300000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.765905e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 92.75634|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17707.320|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1982.629|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 327.6145|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 41.17892|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.0700000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.848151e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 94.31012|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 18073.350|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2031.190|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 339.9549|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 42.61186|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.0900000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.941360e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 95.71346|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17911.820|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2080.441|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 327.4415|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 40.43613|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.2700000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.992380e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 98.40574|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17474.790|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2085.745|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 284.4028|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 32.12917|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.0000000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.936422e+12|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 98.49197|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 16954.370|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2025.815|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 300.3987|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 29.96475|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.1500000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.995289e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 100.00000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17245.840|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2065.307|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 300.1641|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 34.18300|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.3354000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.058369e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 102.11160|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17561.670|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2110.593|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 283.4498|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 32.55166|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.3958000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.088804e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 104.10706|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17591.768|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2117.202|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 292.0000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 32.00000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.3500000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.117189e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 105.00625|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17653.770|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2129.404|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 288.5000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 32.20000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.2850000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.149765e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 105.53943|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17703.040|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2149.765|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 281.5000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 34.30000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.1490000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.198432e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 105.57902|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17757.190|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2173.690|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 287.7000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 32.60000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.1100000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.234129e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 105.77258|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17809.400|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2197.502|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 307.7000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 33.42000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.2320000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.297242e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 106.86445|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 18328.210|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2247.856|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 317.3000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 31.98000|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.4370000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.363306e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 108.84232|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 17270.020|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2289.780|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 322.3000|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 31.58400|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 1.4400000|
+ []
+
+
+Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2.437635e+12|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 110.04857|
+ []
+
+
+Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 16344.300|
+ []
+
+
+Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
+ []\TU/lmr/m/n/7 2331.980|
+ []
+
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf, id=11, 469.755
 pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-1.pdf Graphic fi
+File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf Graphic fi
 le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-1.pdf>
+<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-1.pdf  used on input line 244.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[2]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-2.pdf, id=27, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-2.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-2.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-2.pdf  used on input line 256.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[3<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-1.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-3.pdf, id=36, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-3.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-3.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-3.pdf  used on input line 268.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[4<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-2.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-4.pdf, id=45, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-4.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-4.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-4.pdf  used on input line 280.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[5<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-3.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-5.pdf, id=54, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-5.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-5.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-5.pdf  used on input line 292.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[6<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-4.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-6.pdf, id=63, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-6.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-6.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-6.pdf  used on input line 300.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[7<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-5.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-7.pdf, id=72, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-7.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-7.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-7.pdf  used on input line 308.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[8<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-6.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-8.pdf, id=81, 469.755
-pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-8.pdf Graphic fi
-le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-8.pdf>
-Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--4-8.pdf  used on input line 316.
-(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[9<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-4-7.pdf>] [10<./Proj
-et_econometrie_II_files/figure-latex/unnamed-chunk-4-8.pdf>] [11]
-Overfull \hbox (2.74498pt too wide) in paragraph at lines 477--477
+-5-1.pdf  used on input line 203.
+(luatex.def)             Requested size: 328.82626pt x 227.64894pt.
+[2
+warning  (pdf backend): ignoring duplicate destination with the name 'table.1'
+] [3<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf>]
+Overfull \hbox (2.74498pt too wide) in paragraph at lines 336--336
 []\TU/lmtt/m/n/10 ##         stop("'align' must be a character vector of possibl
 e values 'l', 'r', and 'c'")[] 
  []
 
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-1.pdf, id=107, 469.75
-5pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-1.pdf Graphic fi
+[4]
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf, id=42, 469.755
+pt x 325.215pt>
+File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf Graphic fi
 le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-1.pdf>
+<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--6-1.pdf  used on input line 519.
+-7-1.pdf  used on input line 356.
 (luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[12]
-Overfull \hbox (128.74498pt too wide) in paragraph at lines 535--535
+
+Overfull \hbox (128.74498pt too wide) in paragraph at lines 372--372
 []\TU/lmtt/m/n/10 ## Warning in cumsum(rr)/scr: Le recyclage d’un tableau (arr
 ay) de longueur 1 dans un calcul arithmétique vecteur-
  []
 
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-2.pdf, id=112, 469.75
-5pt x 325.215pt>
-File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-2.pdf Graphic fi
+[5<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf>]
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf, id=53, 469.755
+pt x 325.215pt>
+File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf Graphic fi
 le (type pdf)
-<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-2.pdf>
+<use Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--6-2.pdf  used on input line 558.
+-7-2.pdf  used on input line 395.
 (luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-[13<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-6-1.pdf>] [14<./Pro
-jet_econometrie_II_files/figure-latex/unnamed-chunk-6-2.pdf>] [15] [16] [17]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 402.
+[6<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf>] [7] [8] [
+9]
 
-LaTeX Warning: Empty bibliography on input line 791.
+LaTeX Warning: Empty bibliography on input line 628.
 
-[18] (./Projet_econometrie_II.aux)
+[10] (./Projet_econometrie_II.aux)
 Package logreq Info: Writing requests to 'Projet_econometrie_II.run.xml'.
 
 \openout1 = Projet_econometrie_II.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 29642 strings out of 477867
+ 29619 strings out of 477867
  125086,1648299 words of node,token memory allocated
- 651 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 9 
-attribute, 73 glue_spec, 9 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:2,2:1333,3:1330,4:688,5:253,6:247,7:4884,8:13,9:849,10:4,11:37
- 49172 multiletter control sequences out of 65536+600000
- 67 fonts using 19593335 bytes
- 86i,11n,121p,1017b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 673 words of node memory still in use:
+   8 hlist, 2 vlist, 3 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 10
+ attribute, 73 glue_spec, 10 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:2,2:3551,3:1402,4:298,5:160,6:665,7:10268,8:10,9:3538,10:4,11:
+40
+ 49208 multiletter control sequences out of 65536+600000
+ 67 fonts using 19604763 bytes
+ 86i,15n,121p,1017b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 olt10-bold.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/
-public/lm-math/latinmodern-math.otf><//?/c:/users/bijan/appdata/local/programs/m
-iktex/fonts/opentype/public/lm-math/latinmodern-math.otf><//?/c:/users/bijan/app
-data/local/programs/miktex/fonts/opentype/public/lm/lmmono10-italic.otf><//?/c:/
-users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmonolt10-bo
-ldoblique.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/p
-ublic/lm/lmmono10-regular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/
-fonts/opentype/public/lm/lmromanslant10-regular.otf><//?/c:/users/bijan/appdata/
-local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/use
-rs/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.o
-tf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lm
-roman12-bold.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentyp
-e/public/lm/lmroman12-regular.otf><//?/c:/users/bijan/appdata/local/programs/mik
-tex/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on Projet_econometrie_II.pdf (18 pages, 133370 bytes).
+public/lm/lmmono10-italic.otf><//?/c:/users/bijan/appdata/local/programs/miktex/
+fonts/opentype/public/lm/lmmono10-regular.otf><//?/c:/users/bijan/appdata/local/
+programs/miktex/fonts/opentype/public/lm-math/latinmodern-math.otf><//?/c:/users
+/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm-math/latinmodern-m
+ath.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman10-bold.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/op
+entype/public/lm/lmroman7-regular.otf><//?/c:/users/bijan/appdata/local/programs
+/miktex/fonts/opentype/public/lm/lmroman7-bold.otf><//?/c:/users/bijan/appdata/l
+ocal/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?/c:/users/b
+ijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmromanslant10-regul
+ar.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmroman10-regular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/
+opentype/public/lm/lmroman12-regular.otf><//?/c:/users/bijan/appdata/local/progr
+ams/miktex/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on Projet_econometrie_II.pdf (10 pages, 97464 bytes).
 
-PDF statistics: 227 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 131072)
+PDF statistics: 164 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 131072)
  9 words of extra memory for PDF output out of 10000 (max. 100000000)
 

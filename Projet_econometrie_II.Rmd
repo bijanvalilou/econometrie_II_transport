@@ -5,16 +5,15 @@ date: "Janvier 2021"
 output:
   pdf_document:
     citation_package: biblatex
-    toc: yes
+    toc: no
     number_sections: yes
-    toc_depth: 2
+    toc_depth: 4
     highlight: tango
     latex_engine: lualatex
-    keep_tex: yes
+    fig_caption: yes
   html_document:
     toc: yes
-    toc_depth: '2'
-    df_print: paged
+    toc_depth: 5
 subtitle: "Rapport"
 header-includes:
 - \usepackage{fancyhdr}
@@ -28,7 +27,7 @@ bibliography: references.bib
 
 # Introduction
 
-```{r include=FALSE}
+```{r, include=FALSE}
 library(usethis)
 library(readxl)
 library(gitcreds)
@@ -40,7 +39,7 @@ library(pander)
 library(ggpubr)
 ```
 
-```{r include=FALSE}
+```{r, include=FALSE}
 
 
 Transport_France2019 <- read_excel("Transport_France2019_v2.xlsx")
@@ -56,7 +55,7 @@ Transport_France2019 <- read_excel("Transport_France2019_v2.xlsx")
 
 ```
 
-```{r include=FALSE}
+```{r, include=FALSE}
 ##Séries temporelles
 Qtt_Trsp_route.ts <- ts(Transport_France2019$Qtt_Trsp_route, start=c(1985) , end=c(2019), frequency=1)
 Qtt_Trsp_train.ts <- ts(Transport_France2019$Qtt_Trsp_train, start=c(1985) , end=c(2019), frequency=1)
@@ -68,24 +67,32 @@ Qdieselcamion.ts <- ts(Transport_France2019$Qdieselcamion, start=c(1985) , end=c
 
 ```
 
-```{r}
+```{r, echo=FALSE, out.width = '10%', out.height = '10%', fig.align='center'}
+kable(Transport_France2019, booktabs = T, linesep = "", caption = "Consommation de gazole des camions") %>% 
+kable_styling(latex_options = "hold_position", full_width = T,font_size = 7) %>% 
+row_spec(0, bold = T) %>% 
+column_spec(1, width = "6cm")
+```
+
+
+```{r, echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 ##Graph en niveau
 plt1 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Qtt_Trsp_route))+
-labs(x = "Année", y = "Quantités transportées par route", title = "Fig. X Quantités transportées par route") + 
+labs(x = "Année", y = "Quantités transportées par route", title = "Fig. X Quantités transportées \n par route") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 
 plt2 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Qtt_Trsp_train))+
-labs(x = "Année", y = "Quantités transportées par train", title = "Fig. X Quantités transportées par train") + 
+labs(x = "Année", y = "Quantités transportées par train", title = "Fig. X Quantités transportées \n par train") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 plt3 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Pdiesel))+
-labs(x = "Année", y = "Prix du disel", title = "Fig. X Prix du diesel") + 
+labs(x = "Année", y = "Prix du disel (euros/litre de diesel)", title = "Fig. X Prix du diesel") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
@@ -98,31 +105,31 @@ labs(x = "Année", y = "PIB en volume (en milliards d'euros 2014)", title = "Fig
 
 plt5 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$QDiesel))+
-labs(x = "Année", y = "Quantité de diesel consommé (tout transport confondu)", title = "Quantité de diesel consommé (en milliers de tonnes") + 
+labs(x = "Année", y = "Quantité de diesel consommé (en milliers de tonnes)", title = "Quantité totale \n de diesel consommé") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 plt6 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$QDiesel))+
-labs(x = "Année", y = "Quantité de diesel consommé \n par le transport par camions", title = "Quantité de diesel consommé par les camions(milliers de tonnes)") + 
+labs(x = "Année", y = "Quantité de diesel consommé (milliers de tonnes)", title = "Quantité de diesel consommé \n par le transport par camion") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 plt7 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$CPI))+
-labs(x = "Année", y = "Prix à la consommation", title = "Indice de prix à la consommation (base 2015)") + 
+labs(x = "Année", y = "Indice de prix à la consommation (base 2015)", title = "Prix à la consommation") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
-plot(Qdieselcamion.ts, xlab = "Temps", ylab = "Quantité de diesel consommé par les camions")
-plot(CPI.ts, xlab = "Temps", ylab = "Indice de prix à la consommation")
 
-figure <- ggarrange(plt1, plt2, plt3, plt4, plt5, plt6, plt7, plt8, ncol=4, nrow = 2, heights = c(1, 1))
+figure <- ggarrange(plt1, plt2, plt3, plt4,plt5, plt6, plt7, ncol=3, nrow = 3, heights = c(1, 1))
 annotate_figure(figure,
-               top = text_grob("Kaya identities for National Low Carbon strategy (%)", face = "bold", size = 14))
+               top = text_grob("Présentation des variables", face = "bold", size = 14))
+
+
 ```
 
-```{r echo=FALSE}
+```{r, echo=FALSE}
 n=length(Transport_France2019$Qdieselcamion)
 
 vec <- c(Transport_France2019$Pdiesel/Transport_France2019$CPI,Transport_France2019$"PIB en volume (en milliards d'euros 2014)",Transport_France2019$Qtt_Trsp_route)
