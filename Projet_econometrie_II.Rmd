@@ -23,7 +23,10 @@ header-includes:
 bibliography: references.bib
 ---
 
+```{=tex}
+\tableofcontents
 \newpage
+```
 
 # Introduction
 
@@ -67,15 +70,19 @@ Qdieselcamion.ts <- ts(Transport_France2019$Qdieselcamion, start=c(1985) , end=c
 
 ```
 
+#Présentation des données
 ```{r, echo=FALSE, out.width = '10%', out.height = '10%', fig.align='center'}
-kable(Transport_France2019, booktabs = T, linesep = "", caption = "Consommation de gazole des camions") %>% 
+table <- Transport_France2019
+row.names(table) <- table[,1]
+
+kable(, booktabs = T, linesep = "", caption = "Consommation de gazole des camions") %>% 
 kable_styling(latex_options = "hold_position", full_width = T,font_size = 7) %>% 
 row_spec(0, bold = T) %>% 
-column_spec(1, width = "6cm")
+column_spec(1, bold = T) 
 ```
 
 
-```{r, echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
+```{r, echo=FALSE, out.width = '100%', out.height = '100%', fig.align='center'}
 ##Graph en niveau
 plt1 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Qtt_Trsp_route))+
@@ -148,8 +155,7 @@ K=k+1
  
 summary(OLS) %>% pander
 
- kable
- names(OLS)
+
 xc = cbind(1,x) 
 bhat = OLS$coefficients 
 yf = xc %*% bhat
@@ -165,7 +171,7 @@ print (dw)
 ```
 
 
-```{r}
+```{r echo=FALSE, warning=FALSE}
 Wr <- efp(y ~ x, type = "Rec-CUSUM")
 plot(Wr)
 #
@@ -193,19 +199,19 @@ matplot(c(t3), cusum2, type ="l")
 
 ```
 
-```{r}
+```{r echo=FALSE}
 #sctest(y ~ x, type = "Chow", point =)
 # pour R, la rupture est test?e non pas sur 1979-1980 mais sur 1979. 
 #Sur Eviews, la rupture est test?e sur 1980/
-for(i in 9:30) {
+for(i in 14:18) {
 
-print(sctest(y ~ x, type = "Chow", point = i) )
+sctest(y ~ x, type = "Chow", point = i) %>% pander
 }
 
 ```
 
 
-```{r}
+```{r echo=FALSE}
 n=length(Transport_France2019$Qdieselcamion)
 
 P1 <- replicate(35, 0)
@@ -228,9 +234,8 @@ K=k+1
  
  OLS=lm(formula = y ~ x)
  
- summary(OLS)
+ summary(OLS)%>% pander
  
- names(OLS)
 xc = cbind(1,x) 
 bhat = OLS$coefficients 
 yf = xc %*% bhat

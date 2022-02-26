@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  26 FEB 2022 16:39
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  26 FEB 2022 17:00
  restricted system commands enabled.
 **Projet_econometrie_II.tex
 (./Projet_econometrie_II.tex
@@ -449,85 +449,70 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen161
 \Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks24
-(C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count299
-\FV@InFile=\read2
-\FV@TabBox=\box54
-\c@FancyVerbLine=\count300
-\FV@StepNumber=\count301
-\FV@OutFile=\write3
-) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip54
-\fb@frw=\dimen163
-\fb@frh=\dimen164
-\FrameRule=\dimen165
-\FrameSep=\dimen166
-) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty
+(C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count302
-\LTcapwidth=\dimen167
-\LT@head=\box55
-\LT@firsthead=\box56
-\LT@foot=\box57
-\LT@lastfoot=\box58
-\LT@gbox=\box59
-\LT@cols=\count303
-\LT@rows=\count304
-\c@LT@tables=\count305
-\c@LT@chunks=\count306
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count299
+\LTcapwidth=\dimen163
+\LT@head=\box54
+\LT@firsthead=\box55
+\LT@foot=\box56
+\LT@lastfoot=\box57
+\LT@gbox=\box58
+\LT@cols=\count300
+\LT@rows=\count301
+\c@LT@tables=\count302
+\c@LT@chunks=\count303
 \LT@p@ftn=\toks25
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen168
-\lightrulewidth=\dimen169
-\cmidrulewidth=\dimen170
-\belowrulesep=\dimen171
-\belowbottomsep=\dimen172
-\aboverulesep=\dimen173
-\abovetopsep=\dimen174
-\cmidrulesep=\dimen175
-\cmidrulekern=\dimen176
-\defaultaddspace=\dimen177
-\@cmidla=\count307
-\@cmidlb=\count308
-\@aboverulesep=\dimen178
-\@belowrulesep=\dimen179
-\@thisruleclass=\count309
-\@lastruleclass=\count310
-\@thisrulewidth=\dimen180
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count304
+\@cmidlb=\count305
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count306
+\@lastruleclass=\count307
+\@thisrulewidth=\dimen176
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen181
-\ar@mcellbox=\box60
-\extrarowheight=\dimen182
+\col@sep=\dimen177
+\ar@mcellbox=\box59
+\extrarowheight=\dimen178
 \NC@list=\toks26
-\extratabsurround=\skip59
-\backup@length=\skip60
-\ar@cellbox=\box61
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box60
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count311
-\calc@Bcount=\count312
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
+\calc@Acount=\count308
+\calc@Bcount=\count309
+\calc@Adimen=\dimen179
+\calc@Bdimen=\dimen180
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count313
-\calc@Cskip=\skip63
+\calc@Ccount=\count310
+\calc@Cskip=\skip62
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/footnotehyper/footnoteh
 yper.sty
 Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
-\FNH@notes=\box62
-\FNH@width=\dimen185
+\FNH@notes=\box61
+\FNH@width=\dimen181
 \FNH@toks=\toks27
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
@@ -542,53 +527,53 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
 )
-\Gin@req@height=\dimen186
-\Gin@req@width=\dimen187
+\Gin@req@height=\dimen182
+\Gin@req@width=\dimen183
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip64
-\f@nch@O@elh=\skip65
-\f@nch@O@erh=\skip66
-\f@nch@O@olh=\skip67
-\f@nch@O@orh=\skip68
-\f@nch@O@elf=\skip69
-\f@nch@O@erf=\skip70
-\f@nch@O@olf=\skip71
-\f@nch@O@orf=\skip72
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
 )
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 125.
+less on input line 85.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 126.
+less on input line 86.
 
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip73
-\multirow@cntb=\count314
-\multirow@dima=\skip74
-\bigstrutjot=\dimen188
+\multirow@colwidth=\skip72
+\multirow@cntb=\count311
+\multirow@dima=\skip73
+\bigstrutjot=\dimen184
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen189
-\WF@size=\dimen190
-\c@WF@wrappedlines=\count315
-\WF@box=\box63
+\wrapoverhang=\dimen185
+\WF@size=\dimen186
+\c@WF@wrappedlines=\count312
+\WF@box=\box62
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count316
+\c@float@type=\count313
 \float@exts=\toks29
-\float@box=\box64
+\float@box=\box63
 \@float@everytoks=\toks30
-\@floatcapt=\box65
+\@floatcapt=\box64
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \everycr=\toks31
-\minrowclearance=\skip75
+\minrowclearance=\skip74
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -600,38 +585,38 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box66
-\sift@deathcycles=\count317
-\@vwid@loff=\dimen191
-\@vwid@roff=\dimen192
+\@vwid@box=\box65
+\sift@deathcycles=\count314
+\@vwid@loff=\dimen187
+\@vwid@roff=\dimen188
 )
-\c@taburow=\count318
-\tabu@nbcols=\count319
-\tabu@cnt=\count320
-\tabu@Xcol=\count321
-\tabu@alloc=\count322
-\tabu@nested=\count323
-\tabu@target=\dimen193
-\tabu@spreadtarget=\dimen194
-\tabu@naturalX=\dimen195
-\tabucolX=\dimen196
-\tabu@Xsum=\dimen197
-\extrarowdepth=\dimen198
-\abovetabulinesep=\dimen199
-\belowtabulinesep=\dimen256
-\tabustrutrule=\dimen257
+\c@taburow=\count315
+\tabu@nbcols=\count316
+\tabu@cnt=\count317
+\tabu@Xcol=\count318
+\tabu@alloc=\count319
+\tabu@nested=\count320
+\tabu@target=\dimen189
+\tabu@spreadtarget=\dimen190
+\tabu@naturalX=\dimen191
+\tabucolX=\dimen192
+\tabu@Xsum=\dimen193
+\extrarowdepth=\dimen194
+\abovetabulinesep=\dimen195
+\belowtabulinesep=\dimen196
+\tabustrutrule=\dimen197
 \tabu@thebody=\toks32
 \tabu@footnotes=\toks33
-\tabu@box=\box67
-\tabu@arstrutbox=\box68
-\tabu@hleads=\box69
-\tabu@vleads=\box70
-\tabu@cellskip=\skip76
+\tabu@box=\box66
+\tabu@arstrutbox=\box67
+\tabu@hleads=\box68
+\tabu@vleads=\box69
+\tabu@cellskip=\skip75
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/threeparttable/threepar
 ttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box71
+\@tempboxb=\box70
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/threeparttablex/threepa
 rttablex.sty
@@ -643,22 +628,22 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip77
+\TPTL@width=\skip76
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty
-\UL@box=\box72
-\UL@hyphenbox=\box73
-\UL@skip=\skip78
+\UL@box=\box71
+\UL@hyphenbox=\box72
+\UL@skip=\skip77
 \UL@hook=\toks34
-\UL@height=\dimen258
-\UL@pe=\count324
-\UL@pixel=\dimen259
-\ULC@box=\box74
+\UL@height=\dimen198
+\UL@pe=\count321
+\UL@pixel=\dimen199
+\ULC@box=\box73
 Package: ulem 2019/11/18
-\ULdepth=\dimen260
+\ULdepth=\dimen256
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen261
-\c@nlinenum=\count325
+\rotheadsize=\dimen257
+\c@nlinenum=\count322
 \TeXr@lab=\toks35
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/lualatex/selnolig/selnolig.st
@@ -675,7 +660,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestack/ctablestac
 k.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count326
+\@catcodetablestackcnt=\count323
 )
 \CatcodeTableOther=\catcodetable12
 \CatcodeTableExpl=\catcodetable13
@@ -685,68 +670,68 @@ Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count327
+\lrq@indent=\count324
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count328
-\c@listtotal=\count329
-\c@listcount=\count330
-\c@liststart=\count331
-\c@liststop=\count332
-\c@citecount=\count333
-\c@citetotal=\count334
-\c@multicitecount=\count335
-\c@multicitetotal=\count336
-\c@instcount=\count337
-\c@maxnames=\count338
-\c@minnames=\count339
-\c@maxitems=\count340
-\c@minitems=\count341
-\c@citecounter=\count342
-\c@maxcitecounter=\count343
-\c@savedcitecounter=\count344
-\c@uniquelist=\count345
-\c@uniquename=\count346
-\c@refsection=\count347
-\c@refsegment=\count348
-\c@maxextratitle=\count349
-\c@maxextratitleyear=\count350
-\c@maxextraname=\count351
-\c@maxextradate=\count352
-\c@maxextraalpha=\count353
-\c@abbrvpenalty=\count354
-\c@highnamepenalty=\count355
-\c@lownamepenalty=\count356
-\c@maxparens=\count357
-\c@parenlevel=\count358
-\blx@tempcnta=\count359
-\blx@tempcntb=\count360
-\blx@tempcntc=\count361
-\blx@maxsection=\count362
-\blx@maxsegment@0=\count363
-\blx@notetype=\count364
-\blx@parenlevel@text=\count365
-\blx@parenlevel@foot=\count366
-\blx@sectionciteorder@0=\count367
-\blx@entrysetcounter=\count368
-\blx@biblioinstance=\count369
-\labelnumberwidth=\skip79
-\labelalphawidth=\skip80
-\biblabelsep=\skip81
-\bibitemsep=\skip82
-\bibnamesep=\skip83
-\bibinitsep=\skip84
-\bibparsep=\skip85
-\bibhang=\skip86
-\blx@bcfin=\read3
-\blx@bcfout=\write4
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@maxcitecounter=\count340
+\c@savedcitecounter=\count341
+\c@uniquelist=\count342
+\c@uniquename=\count343
+\c@refsection=\count344
+\c@refsegment=\count345
+\c@maxextratitle=\count346
+\c@maxextratitleyear=\count347
+\c@maxextraname=\count348
+\c@maxextradate=\count349
+\c@maxextraalpha=\count350
+\c@abbrvpenalty=\count351
+\c@highnamepenalty=\count352
+\c@lownamepenalty=\count353
+\c@maxparens=\count354
+\c@parenlevel=\count355
+\blx@tempcnta=\count356
+\blx@tempcntb=\count357
+\blx@tempcntc=\count358
+\blx@maxsection=\count359
+\blx@maxsegment@0=\count360
+\blx@notetype=\count361
+\blx@parenlevel@text=\count362
+\blx@parenlevel@foot=\count363
+\blx@sectionciteorder@0=\count364
+\blx@entrysetcounter=\count365
+\blx@biblioinstance=\count366
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
+\blx@bcfin=\read2
+\blx@bcfout=\write3
 \blx@langwohyphens=\language2
-\c@mincomprange=\count370
-\c@maxcomprange=\count371
-\c@mincompwidth=\count372
+\c@mincomprange=\count367
+\c@maxcomprange=\count368
+\c@mincompwidth=\count369
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
@@ -754,88 +739,88 @@ File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count373
-\c@savedafterword=\count374
-\c@annotator=\count375
-\c@savedannotator=\count376
-\c@author=\count377
-\c@savedauthor=\count378
-\c@bookauthor=\count379
-\c@savedbookauthor=\count380
-\c@commentator=\count381
-\c@savedcommentator=\count382
-\c@editor=\count383
-\c@savededitor=\count384
-\c@editora=\count385
-\c@savededitora=\count386
-\c@editorb=\count387
-\c@savededitorb=\count388
-\c@editorc=\count389
-\c@savededitorc=\count390
-\c@foreword=\count391
-\c@savedforeword=\count392
-\c@holder=\count393
-\c@savedholder=\count394
-\c@introduction=\count395
-\c@savedintroduction=\count396
-\c@namea=\count397
-\c@savednamea=\count398
-\c@nameb=\count399
-\c@savednameb=\count400
-\c@namec=\count401
-\c@savednamec=\count402
-\c@translator=\count403
-\c@savedtranslator=\count404
-\c@shortauthor=\count405
-\c@savedshortauthor=\count406
-\c@shorteditor=\count407
-\c@savedshorteditor=\count408
-\c@labelname=\count409
-\c@savedlabelname=\count410
-\c@institution=\count411
-\c@savedinstitution=\count412
-\c@lista=\count413
-\c@savedlista=\count414
-\c@listb=\count415
-\c@savedlistb=\count416
-\c@listc=\count417
-\c@savedlistc=\count418
-\c@listd=\count419
-\c@savedlistd=\count420
-\c@liste=\count421
-\c@savedliste=\count422
-\c@listf=\count423
-\c@savedlistf=\count424
-\c@location=\count425
-\c@savedlocation=\count426
-\c@organization=\count427
-\c@savedorganization=\count428
-\c@origlocation=\count429
-\c@savedoriglocation=\count430
-\c@origpublisher=\count431
-\c@savedorigpublisher=\count432
-\c@publisher=\count433
-\c@savedpublisher=\count434
-\c@language=\count435
-\c@savedlanguage=\count436
-\c@origlanguage=\count437
-\c@savedoriglanguage=\count438
-\c@pageref=\count439
-\c@savedpageref=\count440
-\shorthandwidth=\skip87
-\shortjournalwidth=\skip88
-\shortserieswidth=\skip89
-\shorttitlewidth=\skip90
-\shortauthorwidth=\skip91
-\shorteditorwidth=\skip92
-\locallabelnumberwidth=\skip93
-\locallabelalphawidth=\skip94
-\localshorthandwidth=\skip95
-\localshortjournalwidth=\skip96
-\localshortserieswidth=\skip97
-\localshorttitlewidth=\skip98
-\localshortauthorwidth=\skip99
-\localshorteditorwidth=\skip100
+\c@afterword=\count370
+\c@savedafterword=\count371
+\c@annotator=\count372
+\c@savedannotator=\count373
+\c@author=\count374
+\c@savedauthor=\count375
+\c@bookauthor=\count376
+\c@savedbookauthor=\count377
+\c@commentator=\count378
+\c@savedcommentator=\count379
+\c@editor=\count380
+\c@savededitor=\count381
+\c@editora=\count382
+\c@savededitora=\count383
+\c@editorb=\count384
+\c@savededitorb=\count385
+\c@editorc=\count386
+\c@savededitorc=\count387
+\c@foreword=\count388
+\c@savedforeword=\count389
+\c@holder=\count390
+\c@savedholder=\count391
+\c@introduction=\count392
+\c@savedintroduction=\count393
+\c@namea=\count394
+\c@savednamea=\count395
+\c@nameb=\count396
+\c@savednameb=\count397
+\c@namec=\count398
+\c@savednamec=\count399
+\c@translator=\count400
+\c@savedtranslator=\count401
+\c@shortauthor=\count402
+\c@savedshortauthor=\count403
+\c@shorteditor=\count404
+\c@savedshorteditor=\count405
+\c@labelname=\count406
+\c@savedlabelname=\count407
+\c@institution=\count408
+\c@savedinstitution=\count409
+\c@lista=\count410
+\c@savedlista=\count411
+\c@listb=\count412
+\c@savedlistb=\count413
+\c@listc=\count414
+\c@savedlistc=\count415
+\c@listd=\count416
+\c@savedlistd=\count417
+\c@liste=\count418
+\c@savedliste=\count419
+\c@listf=\count420
+\c@savedlistf=\count421
+\c@location=\count422
+\c@savedlocation=\count423
+\c@organization=\count424
+\c@savedorganization=\count425
+\c@origlocation=\count426
+\c@savedoriglocation=\count427
+\c@origpublisher=\count428
+\c@savedorigpublisher=\count429
+\c@publisher=\count430
+\c@savedpublisher=\count431
+\c@language=\count432
+\c@savedlanguage=\count433
+\c@origlanguage=\count434
+\c@savedoriglanguage=\count435
+\c@pageref=\count436
+\c@savedpageref=\count437
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+\locallabelnumberwidth=\skip92
+\locallabelalphawidth=\skip93
+\localshorthandwidth=\skip94
+\localshortjournalwidth=\skip95
+\localshortserieswidth=\skip96
+\localshorttitlewidth=\skip97
+\localshortauthorwidth=\skip98
+\localshorteditorwidth=\skip99
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -851,19 +836,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count441
-\c@textcitetotal=\count442
-\c@textcitemaxnames=\count443
-\c@biburlbigbreakpenalty=\count444
-\c@biburlbreakpenalty=\count445
-\c@biburlnumpenalty=\count446
-\c@biburlucpenalty=\count447
-\c@biburllcpenalty=\count448
+\c@textcitecount=\count438
+\c@textcitetotal=\count439
+\c@textcitemaxnames=\count440
+\c@biburlbigbreakpenalty=\count441
+\c@biburlbreakpenalty=\count442
+\c@biburlnumpenalty=\count443
+\c@biburlucpenalty=\count444
+\c@biburllcpenalty=\count445
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count449
+\c@smartand=\count446
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -877,8 +862,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard.b
 bx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count450
-\c@bbx:relatedtotal=\count451
+\c@bbx:relatedcount=\count447
+\c@bbx:relatedtotal=\count448
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -903,45 +888,45 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\@quotelevel=\count452
-\@quotereset=\count453
+\@quotelevel=\count449
+\@quotereset=\count450
 (./Projet_econometrie_II.aux)
 \openout1 = Projet_econometrie_II.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 147.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 147.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 147.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 147.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 147.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 147.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 107.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 147.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 107.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -976,7 +961,7 @@ se;script=math;language=dflt;"
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 107.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1020,18 +1005,18 @@ se;script=math;language=dflt;"
 (fontspec)             \__um_luatex_copy_fontdimens: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 147.
+(Font)              scaled to size 10.0pt on input line 107.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 147.
+(Font)              `operators' in the math version `normal' on input line 107.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 147.
+ line 107.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 147.
+(Font)              `operators' in the math version `bold' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 147.
+t line 107.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1121,15 +1106,15 @@ e;script=math;language=dflt;"
 (fontspec)             21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 147.
+(Font)              `symbols' in the math version `normal' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 147.
+t line 107.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 147.
+(Font)              `symbols' in the math version `bold' on input line 107.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 147.
+t line 107.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -1202,59 +1187,59 @@ se;script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-47.
+07.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 147.
+t line 107.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 147
+(Font)              `largesymbols' in the math version `bold' on input line 107
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 147.
+t line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 147.
+(Font)              scaled to size 7.0pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 147.
+(Font)              scaled to size 5.0pt on input line 107.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-47.
+07.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 147.
+(Font)              scaled to size 10.00092pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 147.
+(Font)              scaled to size 7.00064pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 147.
+(Font)              scaled to size 5.00046pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 147.
+(Font)              scaled to size 9.99893pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 147.
+(Font)              scaled to size 6.99925pt on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 147.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 147
+(Font)              scaled to size 4.99947pt on input line 107.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107
 .
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 147
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107
 .
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \microtypecontext on input line 147.
-Package microtype Info: Applying patch `item' on input line 147.
-Package microtype Info: Applying patch `toc' on input line 147.
-Package microtype Info: Applying patch `eqnum' on input line 147.
-Package microtype Info: Applying patch `footnote' on input line 147.
+LaTeX Info: Redefining \microtypecontext on input line 107.
+Package microtype Info: Applying patch `item' on input line 107.
+Package microtype Info: Applying patch `toc' on input line 107.
+Package microtype Info: Applying patch `eqnum' on input line 107.
+Package microtype Info: Applying patch `footnote' on input line 107.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 147.
+LaTeX Info: Redefining \showhyphens on input line 107.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1267,16 +1252,16 @@ ern Roman (RS)
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count454
-\scratchdimen=\dimen262
-\scratchbox=\box75
-\nofMPsegments=\count455
-\nofMParguments=\count456
+\scratchcounter=\count451
+\scratchdimen=\dimen258
+\scratchbox=\box74
+\nofMPsegments=\count452
+\nofMParguments=\count453
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count457
-\MPscratchDim=\dimen263
-\MPnumerator=\count458
-\makeMPintoPDFobject=\count459
+\MPscratchCnt=\count454
+\MPscratchDim=\dimen259
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
 \everyMPtoPDFconversion=\toks37
 )
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -1289,7 +1274,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 147.
+Package hyperref Info: Link coloring OFF on input line 107.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
@@ -1299,11 +1284,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count460
+\c@section@level=\count457
 )
-LaTeX Info: Redefining \ref on input line 147.
-LaTeX Info: Redefining \pageref on input line 147.
-LaTeX Info: Redefining \nameref on input line 147.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -1359,1375 +1344,298 @@ Package biblatex Info: ... and expl3
 .sty
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout4 = Projet_econometrie_II.bcf
+\openout3 = Projet_econometrie_II.bcf
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Projet_econometrie_II.bbl' found.
 (./Projet_econometrie_II.bbl)
-Package biblatex Info: Reference section=0 on input line 147.
-Package biblatex Info: Reference segment=0 on input line 147.
+Package biblatex Info: Reference section=0 on input line 107.
+Package biblatex Info: Reference segment=0 on input line 107.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 149.
+(Font)              scaled to size 12.0pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 149.
+(Font)              scaled to size 8.0pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 149.
+(Font)              scaled to size 6.0pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 149.
+(Font)              scaled to size 12.0011pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 149.
+(Font)              scaled to size 8.00073pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 149.
+(Font)              scaled to size 6.00055pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 149.
+(Font)              scaled to size 11.99872pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 149.
+(Font)              scaled to size 7.99915pt on input line 109.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 149.
+(Font)              scaled to size 5.99936pt on input line 109.
 (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:/Users/bijan/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
+) (./Projet_econometrie_II.toc)
+\tf@toc=\write4
+
+\openout4 = Projet_econometrie_II.toc
+[1
 
 {C:/Users/bijan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (41.02702pt too wide) in paragraph at lines 200--200
+Overfull \hbox (21.97733pt too wide) in paragraph at lines 163--163
  []\TU/lmr/bx/n/7 Qtt_Trsp_route|
  []
 
 
-Overfull \hbox (39.3326pt too wide) in paragraph at lines 200--200
+Overfull \hbox (20.2829pt too wide) in paragraph at lines 163--163
  []\TU/lmr/bx/n/7 Qtt_Trsp_train|
  []
 
 
-Overfull \hbox (3.69049pt too wide) in paragraph at lines 200--200
- []\TU/lmr/bx/n/7 Pdiesel|
- []
-
-
-Overfull \hbox (6.13268pt too wide) in paragraph at lines 200--200
- []\TU/lmr/bx/n/7 QDiesel|
- []
-
-
-Overfull \hbox (7.27827pt too wide) in paragraph at lines 200--200
- []\TU/lmr/bx/n/7 Qdiesel-
- []
-
-
-Overfull \hbox (3.60135pt too wide) in paragraph at lines 200--200
- \TU/lmr/bx/n/7 camion|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 128.4177|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 56.05900|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.6036981|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 7.576890e+11|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 61.27793|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 7999.565|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1253.767|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 134.5980|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 52.68600|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5168022|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 8.145960e+11|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 62.83349|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 8377.997|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1283.071|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 144.5150|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 52.70700|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5015573|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 8.559830e+11|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 64.90002|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 8874.912|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1315.942|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 161.1093|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 52.94600|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.4878369|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 9.252150e+11|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 66.65285|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 10083.360|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1378.359|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 168.6379|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 53.71200|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5152777|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 9.971210e+11|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 68.98456|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 11026.464|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1438.233|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 197.0160|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 52.24000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5411940|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.053546e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 71.18813|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 12847.488|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1480.286|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 202.6669|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 52.43001|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5457675|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.091705e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 73.47569|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 13088.602|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1495.802|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 208.3424|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 51.18059|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5274736|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.130983e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 75.21248|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 13520.352|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1519.725|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 204.2418|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 45.58251|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5594879|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.142119e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 76.79530|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 13736.333|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1510.171|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 219.2725|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 48.87126|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5884532|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.179867e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 78.06666|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 13944.659|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1545.786|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 234.5019|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 48.26607|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.5869287|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.218273e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 79.46911|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 14175.760|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1578.351|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 238.5483|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 50.11300|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.6524818|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.252266e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 81.04489|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 14106.159|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1600.653|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 246.9545|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 54.24600|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.6768736|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.292777e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 82.02062|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 14718.880|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1638.049|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 257.6484|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 54.09952|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.6433349|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.351896e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 82.55468|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 15658.433|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1696.833|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 266.8618|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 54.53802|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.6890696|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.400999e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 82.99812|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 16588.176|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1754.888|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 276.8614|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 57.72575|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.8460920|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.478585e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 84.38913|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 16920.644|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1823.744|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 290.4301|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 51.71830|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.8000000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.538200e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 85.76871|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 16846.184|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1859.922|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 293.3823|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 51.28819|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.7700000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.587829e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 87.41840|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17155.587|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1881.042|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 296.9908|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 48.05727|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.7900000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.630666e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 89.25285|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17034.634|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1896.526|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 314.9008|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 46.34837|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 0.8800000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.704019e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 91.16472|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17539.546|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1950.193|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 314.1489|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 40.70118|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.0300000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.765905e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 92.75634|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17707.320|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1982.629|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 327.6145|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 41.17892|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.0700000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.848151e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 94.31012|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 18073.350|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2031.190|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 339.9549|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 42.61186|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.0900000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.941360e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 95.71346|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17911.820|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2080.441|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 327.4415|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 40.43613|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.2700000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.992380e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 98.40574|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17474.790|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2085.745|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 284.4028|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 32.12917|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.0000000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.936422e+12|
  []
 
 
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 98.49197|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 16954.370|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2025.815|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 300.3987|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 29.96475|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.1500000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 1.995289e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 100.00000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17245.840|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2065.307|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 300.1641|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 34.18300|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.3354000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.058369e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 102.11160|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17561.670|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2110.593|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 283.4498|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 32.55166|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.3958000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.088804e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 104.10706|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17591.768|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2117.202|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 292.0000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 32.00000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.3500000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.117189e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 105.00625|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17653.770|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2129.404|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 288.5000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 32.20000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.2850000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.149765e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 105.53943|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17703.040|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2149.765|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 281.5000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 34.30000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.1490000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.198432e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 105.57902|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17757.190|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2173.690|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 287.7000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 32.60000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.1100000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.234129e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 105.77258|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17809.400|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2197.502|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 307.7000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 33.42000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.2320000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.297242e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 106.86445|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 18328.210|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2247.856|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 317.3000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 31.98000|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.4370000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.363306e+12|
  []
 
 
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 108.84232|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 17270.020|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2289.780|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 322.3000|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 31.58400|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 1.4400000|
- []
-
-
-Overfull \hbox (22.96709pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.91739pt too wide) in paragraph at lines 163--163
  []\TU/lmr/m/n/7 2.437635e+12|
  []
 
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 110.04857|
- []
-
-
-Overfull \hbox (9.56265pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 16344.300|
- []
-
-
-Overfull \hbox (5.65932pt too wide) in paragraph at lines 200--200
- []\TU/lmr/m/n/7 2331.980|
- []
-
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf, id=11, 469.755
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf, id=17, 469.755
 pt x 325.215pt>
 File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf Graphic fi
 le (type pdf)
 <use Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--5-1.pdf  used on input line 203.
-(luatex.def)             Requested size: 328.82626pt x 227.64894pt.
+-5-1.pdf  used on input line 166.
+(luatex.def)             Requested size: 469.75386pt x 325.2142pt.
 [2
 warning  (pdf backend): ignoring duplicate destination with the name 'table.1'
-] [3<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf>]
-Overfull \hbox (2.74498pt too wide) in paragraph at lines 336--336
-[]\TU/lmtt/m/n/10 ##         stop("'align' must be a character vector of possibl
-e values 'l', 'r', and 'c'")[] 
- []
-
-[4]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf, id=42, 469.755
+]
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf, id=27, 469.755
 pt x 325.215pt>
 File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf Graphic fi
 le (type pdf)
 <use Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--7-1.pdf  used on input line 356.
+-7-1.pdf  used on input line 234.
 (luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-
-Overfull \hbox (128.74498pt too wide) in paragraph at lines 372--372
-[]\TU/lmtt/m/n/10 ## Warning in cumsum(rr)/scr: Le recyclage d’un tableau (arr
-ay) de longueur 1 dans un calcul arithmétique vecteur-
- []
-
-[5<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf>]
-<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf, id=53, 469.755
+<Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf, id=28, 469.755
 pt x 325.215pt>
 File: Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf Graphic fi
 le (type pdf)
 <use Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf>
 Package luatex.def Info: Projet_econometrie_II_files/figure-latex/unnamed-chunk
--7-2.pdf  used on input line 395.
+-7-2.pdf  used on input line 235.
 (luatex.def)             Requested size: 469.75386pt x 325.2142pt.
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 402.
-[6<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf>] [7] [8] [
-9]
 
-LaTeX Warning: Empty bibliography on input line 628.
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
+[][]
+ []
 
-[10] (./Projet_econometrie_II.aux)
+[3<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-5-1.pdf>] [4<./Proje
+t_econometrie_II_files/figure-latex/unnamed-chunk-7-1.pdf>]
+
+LaTeX Warning: Empty bibliography on input line 304.
+
+[5<./Projet_econometrie_II_files/figure-latex/unnamed-chunk-7-2.pdf>] (./Projet
+_econometrie_II.aux)
 Package logreq Info: Writing requests to 'Projet_econometrie_II.run.xml'.
 
 \openout1 = Projet_econometrie_II.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 29619 strings out of 477867
+ 29126 strings out of 477867
  125086,1648299 words of node,token memory allocated
- 673 words of node memory still in use:
+ 678 words of node memory still in use:
    8 hlist, 2 vlist, 3 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 3 glyph, 10
- attribute, 73 glue_spec, 10 attribute_list, 1 write, 1 user_defined nodes
-   avail lists: 1:2,2:3551,3:1402,4:298,5:160,6:665,7:10268,8:10,9:3538,10:4,11:
-40
- 49208 multiletter control sequences out of 65536+600000
- 67 fonts using 19604763 bytes
+ attribute, 74 glue_spec, 10 attribute_list, 1 write, 1 user_defined nodes
+   avail lists: 1:2,2:3479,3:1211,4:32,5:146,6:595,7:10164,8:13,9:3242,10:4,11:4
+4
+ 48728 multiletter control sequences out of 65536+600000
+ 64 fonts using 19226423 bytes
  86i,15n,121p,1017b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
 <//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
-olt10-bold.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/
-public/lm/lmmono10-italic.otf><//?/c:/users/bijan/appdata/local/programs/miktex/
-fonts/opentype/public/lm/lmmono10-regular.otf><//?/c:/users/bijan/appdata/local/
-programs/miktex/fonts/opentype/public/lm-math/latinmodern-math.otf><//?/c:/users
-/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm-math/latinmodern-m
-ath.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmroman10-bold.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/op
-entype/public/lm/lmroman7-regular.otf><//?/c:/users/bijan/appdata/local/programs
-/miktex/fonts/opentype/public/lm/lmroman7-bold.otf><//?/c:/users/bijan/appdata/l
-ocal/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?/c:/users/b
-ijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmromanslant10-regul
-ar.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/l
-m/lmroman10-regular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/
-opentype/public/lm/lmroman12-regular.otf><//?/c:/users/bijan/appdata/local/progr
-ams/miktex/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on Projet_econometrie_II.pdf (10 pages, 97464 bytes).
+o10-regular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype
+/public/lm-math/latinmodern-math.otf><//?/c:/users/bijan/appdata/local/programs/
+miktex/fonts/opentype/public/lm-math/latinmodern-math.otf><//?/c:/users/bijan/ap
+pdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-regular.otf><//?/c
+:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-bo
+ld.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/l
+m/lmromanslant10-regular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/f
+onts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/bijan/appdata/local/
+programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/bijan/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?/c
+:/users/bijan/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-r
+egular.otf><//?/c:/users/bijan/appdata/local/programs/miktex/fonts/opentype/publ
+ic/lm/lmroman17-regular.otf>
+Output written on Projet_econometrie_II.pdf (5 pages, 72732 bytes).
 
-PDF statistics: 164 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 131072)
+PDF statistics: 135 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 131072)
  9 words of extra memory for PDF output out of 10000 (max. 100000000)
 
