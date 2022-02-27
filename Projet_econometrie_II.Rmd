@@ -274,6 +274,7 @@ Y=matrix(Transport_France2019$Qdieselcamion[1:33],n,1)
 q=ncol(Y);
 k=ncol(X);
 K=k+1
+p=ncol(X)+1
 
  y=Y
  x=X
@@ -329,32 +330,41 @@ scr = t(u) %*% u
 nprev=4
 rmse=0
 # X futur - future X : rmen[22:25]
-for( i in 1:nprev){
-  xf<-rmen[21+i]
-  yfobs<-cmen[21+i]
-nvx <-matrix(c(1,xf))
+xf1=x[33,1]
+xf2=x[33,2]
+xf3=x[33,3]
+xf3=x[33,4]
+yfobs=y[33]
+for( i in 1:10 ){
+
+nvx <- matrix(c(1, xf1, xf2, xf3, xf4))
+#
+
 nvx1 = t(nvx);
-# prevision - forecast 
+#
+# Prevision
+#
 nvy= nvx1 %*% bmco 
 #
 # Ecart-type de prevision
 #
-sprev= sqrt( (scr/(n-K)) * (1+ nvx1 %*% xtx1 %*% nvx ))
+sprev= sqrt( (scr/(n-p)) * (1+ nvx1 %*% xtx1 %*% nvx ))
 #
-# T de Student 
+# T de Student
 #
-tstud=qt(0.975,n-K)
+tstud=qt(0.975,n-p)
 #
-# Borne inf et sup à 95%
-# Lower bound and Upper bound at 95%
+# Borne inf et sup d'un intervalle à 95%
 #
 prevymin=nvy-tstud*sprev
 prevymax=nvy+tstud*sprev
-cat("prevision - forecast",i, ":",nvy, prevymin, prevymax,sprev, "\n")
+cat("prevision",i, ":",nvy, prevymin, prevymax,sprev, "\n")
 rmse=rmse+(yfobs-nvy)*(yfobs-nvy)
 }
+
 rmse=sqrt(rmse/nprev)
 print(rmse)
+
 ```
 
 
