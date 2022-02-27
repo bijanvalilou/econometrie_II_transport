@@ -40,6 +40,9 @@ library(ggplot2)
 library(kableExtra)
 library(pander)
 library(ggpubr)
+library(lmtest)
+library(tseries)
+library(skedastic)
 ```
 
 ```{r, include=FALSE}
@@ -299,6 +302,59 @@ ggplot()+
   geom_line(aes(x=Transport_France2019$Year[1:33], y=yf, color="Valeur réelle de y"))
 
 ```
+```{r}
 
+bgtest(y ~ x, order=2) %>% pander
+```
+```{r}
+jarque.bera.test(res) %>% pander
+```
+
+```{r}
+#sans terme croisé / pure test d'homoscédaticité
+white_lm(OLS, interactions = FALSE, statonly = FALSE)
+bptest(y ~ x, varformula = NULL, studentize = TRUE, data = list())
+
+```
+```{r}
+xc = cbind(1,x) 
+xt = t(xc)
+bmco = OLS$coefficients 
+ycalc = xc %*% bmco
+xtx= xt %*% xc
+xtx1 = solve(xtx) 
+u=y-xc%*%bmco
+scr = t(u) %*% u
+# prevision sur 4 periodes - forecasting over 4 periods
+nprev=4
+rmse=0
+# X futur - future X : rmen[22:25]
+for( i in 1:nprev){
+  xf<-rmen[21+i]
+  yfobs<-cmen[21+i]
+nvx <-matrix(c(1,xf))
+nvx1 = t(nvx);
+# prevision - forecast 
+nvy= nvx1 %*% bmco 
+#
+# Ecart-type de prevision
+#
+sprev= sqrt( (scr/(n-K)) * (1+ nvx1 %*% xtx1 %*% nvx ))
+#
+# T de Student 
+#
+tstud=qt(0.975,n-K)
+#
+# Borne inf et sup à 95%
+# Lower bound and Upper bound at 95%
+#
+prevymin=nvy-tstud*sprev
+prevymax=nvy+tstud*sprev
+cat("prevision - forecast",i, ":",nvy, prevymin, prevymax,sprev, "\n")
+rmse=rmse+(yfobs-nvy)*(yfobs-nvy)
+}
+rmse=sqrt(rmse/nprev)
+print(rmse)
+```
 
 
