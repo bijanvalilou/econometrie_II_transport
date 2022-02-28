@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  28 FEB 2022 21:26
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.12.10) (format=lualatex 2022.1.6)  28 FEB 2022 21:38
  restricted system commands enabled.
 **Projet_econometrie_II.tex
 (./Projet_econometrie_II.tex
@@ -1619,6 +1619,6 @@ margin_kern, 2072 glyph, 521 attribute, 75 glue_spec, 521 attribute_list, 1 temp
 , 7 write, 1 user_defined, 12 pdf_dest, 14 pdf_colorstack nodes
    avail lists: 1:8,2:2489,3:1105,4:9,5:88,6:543,7:8072,8:37,9:2873,10:14,11:131
  49377 multiletter control sequences out of 65536+600000
- 64 fonts using 19231871 bytes
+ 64 fonts using 19232023 bytes
  86i,15n,121p,1017b,1595s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

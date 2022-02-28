@@ -255,8 +255,6 @@ plot(Wr)
 Fig. 8 : Test de Cusum de stabilité temporelle du modèle 1
 :::
 
-\newline
-
 Le second test de Brown, Durbin et Evans (1975) est fondé sur le Cusumsquare, ie les sommes des carrés résidus :
 
 ```{=tex}
@@ -305,7 +303,7 @@ Une fois que la période de rupture est approximativement estimée, nous pouvons
 H_0 : y = X\beta + \varepsilon 
 \end{equation}
 ```
-Le test de Chow calcul une statistique de Fischer fondée sur la somme des carrés des résidisu sur l'échantillon complet $SCR_0$ ey la somme des carrés des résidus du moèle alternatif $SCR_1$ sur chaque sous-période:
+Le test de Chow calcul une statistique de Fischer fondée sur la somme des carrés des résidisu sur l'échantillon complet $SCR_0$ et la somme des carrés des résidus du moèle alternatif $SCR_1$ sur chaque sous-période:
 
 ```{=tex}
 \begin{equation}
@@ -336,12 +334,12 @@ column_spec(1, bold = T)
 
 ## Estimation du modèle 2 en séparant les variables explicatives par sous-période
 
-En observant la figure 3 (cf. supra), le prix du diesel est la série marquée par la plus grande variance. Nous essayons donc de séparer la variable explicative prix du diesel sur deux sous-périodes : une allant de 1985 à 2000 et l'autre de 2001 à 2019. Nous créons une nouvelle variable $\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}}$ (toutes les valeurs de la variable de 1985 à 2000 sont nulles) dissociée de la variable $\frac{P_{diesel}^{1985-2000}{IPC^{1985-2000}}$ (toutes les valeurs de la variable de 2001 à 2019 sont nulles).
+En observant la figure 3 (cf. supra), le prix du diesel est la série marquée par la plus grande variance. Nous essayons donc de séparer la variable explicative prix du diesel sur deux sous-périodes : une allant de 1985 à 2000 et l'autre de 2001 à 2019. Nous créons une nouvelle variable $\frac{P_{diesel}^{2001-2019}}{IPC^{2001-2019}}$ (toutes les valeurs de la variable de 1985 à 2000 sont nulles) dissociée de la variable $\frac{P_{diesel}^{1985-2000}}{IPC^{1985-2000}}$ (toutes les valeurs de la variable de 2001 à 2019 sont nulles).
 
 ```{=tex}
 \begin{equation}
     \label{eq:modele2}
-    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
+    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
 \end{equation}
 ```
 <div>
@@ -392,7 +390,7 @@ dw = d2/d1
 
 ## Tests de stabilité temporelle
 
-Si on effectue un test de Cusumsquare \ref{eq:modele1}, nous observons toujours une instabilité temporelle comme le démontre la figure 10.
+Si on effectue un test de Cusumsquare \ref{eq:modele1} , nous observons toujours une instabilité temporelle comme le démontre la figure 10.
 
 ```{r echo=FALSE, warning=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 Wr <- efp(y ~ x, type = "Rec-CUSUM")
@@ -582,7 +580,7 @@ bptest(y ~ x, varformula = NULL, studentize = TRUE, data = list()) %>% pander
 
 Nous nous reposons sur le jeu d'hypothèse suivant sur les variables explicatives. Celle-ci est basée sur un ensemble de scénarios concernant les prix du diesel et du PIB.
 
-```{r}
+```{r echo=FALSE}
 
 Transport_France2019_prev <- read_excel("Transport_France2019_v2_prev.xlsx")
 
@@ -605,7 +603,7 @@ La prédiction à partir des estimations du modèle 3 revient à calculer :
 
 $$
 \hat{y}_f = x_f' \tilde{\beta}
-$$ 
+$$
 
 A partir de la figure 13, nous remarquons que la consommation de gazole par camion augmente. La consommation de gazole par camion en 2025 est de 22 888 milliers de tonnes.
 
@@ -688,7 +686,7 @@ column_spec(1, bold = T)
 
 ```
 
-```{r}
+```{r echo=FALSE}
 ggplot()+
   geom_line(aes(x=z[,1], y=z[,2], color="Valeur de la prévision"))+
   geom_line(aes(x=z[,1], y=z[,3], color="Borne inférieure"))+

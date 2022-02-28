@@ -395,8 +395,6 @@ espèce.
 
 Fig. 8 : Test de Cusum de stabilité temporelle du modèle 1
 
-\newline
-
 Le second test de Brown, Durbin et Evans (1975) est fondé sur le
 Cusumsquare, ie les sommes des carrés résidus :
 
@@ -429,7 +427,7 @@ H_0 : y = X\beta + \varepsilon
 \end{equation}
 
 Le test de Chow calcul une statistique de Fischer fondée sur la somme
-des carrés des résidisu sur l'échantillon complet \(SCR_0\) ey la somme
+des carrés des résidisu sur l'échantillon complet \(SCR_0\) et la somme
 des carrés des résidus du moèle alternatif \(SCR_1\) sur chaque
 sous-période:
 
@@ -479,14 +477,14 @@ En observant la figure 3 (cf.~supra), le prix du diesel est la série
 marquée par la plus grande variance. Nous essayons donc de séparer la
 variable explicative prix du diesel sur deux sous-périodes : une allant
 de 1985 à 2000 et l'autre de 2001 à 2019. Nous créons une nouvelle
-variable \(\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}}\) (toutes les
+variable \(\frac{P_{diesel}^{2001-2019}}{IPC^{2001-2019}}\) (toutes les
 valeurs de la variable de 1985 à 2000 sont nulles) dissociée de la
-variable \(\frac{P_{diesel}^{1985-2000}{IPC^{1985-2000}}\) (toutes les
+variable \(\frac{P_{diesel}^{1985-2000}}{IPC^{1985-2000}}\) (toutes les
 valeurs de la variable de 2001 à 2019 sont nulles).
 
 \begin{equation}
     \label{eq:modele2}
-    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
+    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
 \end{equation}
 
 Toutes les variables obtenues sont significatives au seuil de 5\%. La
@@ -566,7 +564,7 @@ Adjusted \(R^2\)
 \subsection{Tests de stabilité
 temporelle}\label{tests-de-stabilituxe9-temporelle-1}}
 
-Si on effectue un test de Cusumsquare \ref{eq:modele1}, nous observons
+Si on effectue un test de Cusumsquare \ref{eq:modele1} , nous observons
 toujours une instabilité temporelle comme le démontre la figure 10.
 
 \begin{center}\includegraphics[width=0.7\linewidth,height=0.7\textheight]{Projet_econometrie_II_files/figure-latex/unnamed-chunk-11-1} \end{center}
@@ -846,26 +844,6 @@ Nous nous reposons sur le jeu d'hypothèse suivant sur les variables
 explicatives. Celle-ci est basée sur un ensemble de scénarios concernant
 les prix du diesel et du PIB.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{Transport\_France2019\_prev }\OtherTok{\textless{}{-}} \FunctionTok{read\_excel}\NormalTok{(}\StringTok{"Transport\_France2019\_v2\_prev.xlsx"}\NormalTok{)}
-
-\NormalTok{X2 }\OtherTok{\textless{}{-}}\NormalTok{  Transport\_France2019\_prev}\SpecialCharTok{$}\NormalTok{Pdiesel[}\DecValTok{35}\SpecialCharTok{:}\DecValTok{41}\NormalTok{]}\SpecialCharTok{/}\NormalTok{Transport\_France2019\_prev}\SpecialCharTok{$}\NormalTok{CPI[}\DecValTok{35}\SpecialCharTok{:}\DecValTok{41}\NormalTok{]}
-
-\NormalTok{X3 }\OtherTok{\textless{}{-}}\NormalTok{  Transport\_France2019\_prev}\SpecialCharTok{$}\StringTok{"PIB en volume (en milliards d\textquotesingle{}euros 2014)"}\NormalTok{[}\DecValTok{35}\SpecialCharTok{:}\DecValTok{41}\NormalTok{]}
-
-\NormalTok{X4 }\OtherTok{\textless{}{-}}\NormalTok{ Transport\_France2019\_prev}\SpecialCharTok{$}\NormalTok{Qtt\_Trsp\_route[}\DecValTok{35}\SpecialCharTok{:}\DecValTok{41}\NormalTok{]}
-
-\NormalTok{Year }\OtherTok{\textless{}{-}} 
-\NormalTok{h }\OtherTok{\textless{}{-}} \FunctionTok{cbind}\NormalTok{(Transport\_France2019\_prev}\SpecialCharTok{$}\NormalTok{Year[}\DecValTok{35}\SpecialCharTok{:}\DecValTok{41}\NormalTok{], X2, X3, X4)}
-\FunctionTok{colnames}\NormalTok{(h) }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"Année"}\NormalTok{, }\StringTok{"Prix du diesel déflaté }\SpecialCharTok{\textbackslash{}n}\StringTok{ du niveau général des prix"}\NormalTok{, }\StringTok{"PIB en volume"}\NormalTok{, }\StringTok{"Quantité de biens transportés par route"}\NormalTok{)}
-\FunctionTok{kable}\NormalTok{(h, }\AttributeTok{booktabs =}\NormalTok{ T, }\AttributeTok{linesep =} \StringTok{""}\NormalTok{, }\AttributeTok{caption =} \StringTok{"valeur des variables explicatives de 2019 à 2025"}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%} 
-\FunctionTok{kable\_styling}\NormalTok{(}\AttributeTok{latex\_options =} \StringTok{"hold\_position"}\NormalTok{, }\AttributeTok{full\_width =}\NormalTok{ T,}\AttributeTok{font\_size =} \DecValTok{7}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%} 
-  \FunctionTok{row\_spec}\NormalTok{(}\DecValTok{0}\NormalTok{, }\AttributeTok{bold =}\NormalTok{ T) }\SpecialCharTok{\%\textgreater{}\%} 
-\FunctionTok{column\_spec}\NormalTok{(}\DecValTok{1}\NormalTok{, }\AttributeTok{bold =}\NormalTok{ T)}
-\end{Highlighting}
-\end{Shaded}
-
 \begin{table}[!h]
 
 \caption{\label{tab:unnamed-chunk-18}valeur des variables explicatives de 2019 à 2025}
@@ -916,18 +894,6 @@ par camion augmente. La consommation de gazole par camion en 2025 est de
 \bottomrule
 \end{tabu}
 \end{table}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{ggplot}\NormalTok{()}\SpecialCharTok{+}
-  \FunctionTok{geom\_line}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{z[,}\DecValTok{1}\NormalTok{], }\AttributeTok{y=}\NormalTok{z[,}\DecValTok{2}\NormalTok{], }\AttributeTok{color=}\StringTok{"Valeur de la prévision"}\NormalTok{))}\SpecialCharTok{+}
-  \FunctionTok{geom\_line}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{z[,}\DecValTok{1}\NormalTok{], }\AttributeTok{y=}\NormalTok{z[,}\DecValTok{3}\NormalTok{], }\AttributeTok{color=}\StringTok{"Borne inférieure"}\NormalTok{))}\SpecialCharTok{+}
-  \FunctionTok{geom\_line}\NormalTok{(}\FunctionTok{aes}\NormalTok{(}\AttributeTok{x=}\NormalTok{z[,}\DecValTok{1}\NormalTok{], }\AttributeTok{y=}\NormalTok{z[,}\DecValTok{4}\NormalTok{], }\AttributeTok{color=}\StringTok{"Borne supérieure"}\NormalTok{))}\SpecialCharTok{+}
-  \FunctionTok{labs}\NormalTok{(}\AttributeTok{x =} \StringTok{"Année"}\NormalTok{, }\AttributeTok{y =} \StringTok{"Consommation de gazole par camion (en milliers de tonnes)"}\NormalTok{, }\AttributeTok{title =} \StringTok{"Fig.13 Prévisions à l\textquotesingle{}horizon 2025"}\NormalTok{) }\SpecialCharTok{+} 
-    \FunctionTok{theme}\NormalTok{(}\AttributeTok{axis.text=}\FunctionTok{element\_text}\NormalTok{(}\AttributeTok{size=}\DecValTok{7}\NormalTok{),}\AttributeTok{axis.title=}\FunctionTok{element\_text}\NormalTok{(}\AttributeTok{size=}\DecValTok{11}\NormalTok{),}\AttributeTok{title =} \FunctionTok{element\_text}\NormalTok{(}\AttributeTok{size=}\DecValTok{9}\NormalTok{), }\AttributeTok{plot.title =} \FunctionTok{element\_text}\NormalTok{(}\AttributeTok{hjust =} \FloatTok{0.5}\NormalTok{, }\AttributeTok{vjust =} \FloatTok{0.5}\NormalTok{)) }\SpecialCharTok{+}
-  \FunctionTok{scale\_x\_continuous}\NormalTok{(}\AttributeTok{breaks=}\FunctionTok{seq}\NormalTok{(}\DecValTok{2019}\NormalTok{,}\DecValTok{2025}\NormalTok{,}\DecValTok{1}\NormalTok{))}
-\end{Highlighting}
-\end{Shaded}
 
 \includegraphics{Projet_econometrie_II_files/figure-latex/unnamed-chunk-20-1.pdf}
 
