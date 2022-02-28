@@ -27,8 +27,9 @@ bibliography: references.bib
 \tableofcontents
 \newpage
 ```
-
 # Introduction
+
+L'objectif ce projet est d'expliquer la quantité de diesel consommée par les camions à partir des autres variables proposées et d'effectuer des prévisions à horizon 2025. Nous allons donc tenter de répondre à la question suivante : quels déterminants agissent dans la formation de la quantité de pétrole consommée par les camions ? Pour y répondre nous allons proposé un modèle économétrique et le confronter à divers tests afin d'évaluer sa validité.
 
 ```{r, include=FALSE}
 library(usethis)
@@ -74,6 +75,9 @@ Qdieselcamion.ts <- ts(Transport_France2019$Qdieselcamion, start=c(1985) , end=c
 ```
 
 # Présentation des données
+
+Nous disposons d'un jeu de données comprenant huit séries réunissant des données de 1985 à 2019.
+
 ```{r, echo=FALSE, out.width = '10%', out.height = '10%', fig.align='center'}
 table <- round(Transport_France2019,2)
 colnames(table) <- c("Année", "Quantité transportée par routes", "Quantité transportée par train","Prix du disel (euros/litre de diesel)","Quantité de diesel consommé (en milliers de tonnes)","PIB en monnaie constante (base 100=2014)","Indice des prix à la consommation (base 100=2015)","Quantité de diesel consommé des camions (en milliers de tonnes)","PIB en volume (en milliards d’euros 2014)")
@@ -83,7 +87,6 @@ kable_styling(latex_options = "hold_position", full_width = T,font_size = 7) %>%
 row_spec(0, bold = T) %>% 
 column_spec(1, bold = T) 
 ```
-
 
 ```{r echo=FALSE, fig.align='center', warning=FALSE, out.height='100%', out.width='100%'}
 ##Graph en niveau
@@ -139,6 +142,53 @@ annotate_figure(figure,
 
 ```
 
+# Estimation et tests du premier modèle
+
+## Les variables explicatives choisies
+
+Six variables sont proposées dans le but d'expliquer la quantité de diesel consommée par les camions (sans compter l'ensemble des transformations possibles). Afin d'obtenir un modèle pertinent nous avons réalisé différents choix justifiés.
+
+Nous avons immédiatement exclu la quantité de diesel consommée au total qui comprend la variable que l'on tente d'expliquer : la consommation globale de diesel semble davantage être une conséquence qu'une cause de l'évolution de la quantité de diesel consommé par les camions.
+
+On pourrait supposer que la quantité acheminée par rail soit le témoin d'une substitution entre les différents modes d'acheminement des marchandises. Même si le transport par route connaît une croissance forte tandis que celui par rail décroît comme les figures 1 et 2 le montrent, on peut observer la forte différence d'échelle entre les utilisation des deux modes de transport. On remarque également que les variations qui suivent après les années 2000 n'entraîne pas de réponse significative sur l'une comme sur l'autre. L'évolution du transport ferroviaire ne semble pas être un déterminant du transport routier, mais une conséquence de l'évolution de facteurs structurels et politiques comme Pierre Zembri l'a mis en lumière.
+
+Nous avons finalement choisis trois variables pour notre modèle :
+
+```{=tex}
+\begin{enumerate}
+    \item \textbf{La quantité de transport par route :} La consommation de diesel des camions est à la fois liés à la distance et à la masse de marchandises transportées.
+    \item \textbf{Le PIB en volume :} L'indicateur principal de l'activité économique française.
+    \item \textbf{Le prix du diesel déflaté:} On l'exprime également en volume : on pose le rapport entre prix nominal du diesel et indice des prix à la consommation pour obtenir le prix réel sur la base 2015.
+\end{enumerate}
+```
+## Équation modèle et régression
+
+```{=tex}
+\begin{equation}
+    \label{eq:modele1}
+    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}}{IPC} +  \beta_2*PIB + \beta_3*Q_{route} + \varepsilon
+\end{equation}
+```
+Le premier modèle (1) suit l'équation \ref{eq:modele1} avec les variables :
+
+-   $Q_{DCamion}$ : La quantité de diesel consommée par les camions ;
+
+-   $PIB$ : Le PIB français en volume ;
+
+-   $P_{diesel}$ : Le prix du diesel ;
+
+-   $IPC$ : L'indice des prix à la consommation ;
+
+-   $Q_{route}$ : La quantité de marchandises transportées par route ;
+
+-   $\beta_n$ : Le coefficient associé à la n-ième variable explicative.
+
+<div>
+
+Toutes les variables obtenues sont significatives, car la probabilité qu'elles soient nulles est inférieure à 5%. La variable $x1$ désigne l'effet du prix du diesel, déflaté du niveau général des prix, qui a un effet négatif très fort sur la consommation de diesel des camions. Le gazole est donc un bien ordinaire, avec une élasticité-prix négative de la demande. La variable $x2$ représente l'effet du PIB mesuré en volume. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ vise la quantité de transport par route, qui a un effet positif sur la consommation de diesel. Le coefficient de détermination $R^2$ est de $94\%$, ce qui signifie une forte adéquation entre le modèle et les données observées.
+
+</div>
+
 ```{r, echo=FALSE}
 n=length(Transport_France2019$Qdieselcamion)
 
@@ -169,14 +219,54 @@ scr = t(res) %*% res
 d1 = t(res) %*% res
 d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
 dw = d2/d1
-print (dw)
 
 ```
 
+Nous allons effectuer un ensemble de tests sur le premier modèle estimer afin de voir quelles manipulations sont nécessaires pour accroître la validité du modèle.
+
+## Tests de stabilité temporelle
+
+Afin de détecter l'instabilité des coefficients dans un modèle de régresson sans connaître la date a posteriori, nous allons effectuer un test de Cusum proposé par Brown, Durbins et Evans (1975). Ce test repose sur la somme cumulée réduites des résidus récursifs $W_r$, ie normalisée avec l'écart-type résiduel $S_r$ :
+
+```{=tex}
+\begin{equation}    
+\label{eq:wr}    
+W_r = \frac{1}{S} \overset{r}{\underset{i=K+1}{\sum}} w_j
+\end{equation}
+```
+avec
+
+```{=tex}
+\begin{equation}
+\label{eq:S}
+
+S = \sqrt{\frac{\overset{n}{\underset{i=1}{\sum}} \hat{\varepsilon}_i^2}{n - K}}
+\end{equation}
+```
+En observant la figure 8, nous remarquons que $W_r$ ne s'écarte pas significativement de la droite $W_r = 0$ et reste entre les deux droites représentant le risque de première espèce $\alpha$. Le problème de ce test de ne pas prendre en compte le risque de deuxième espèce.
 
 ```{r echo=FALSE, warning=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 Wr <- efp(y ~ x, type = "Rec-CUSUM")
 plot(Wr)
+
+```
+::: {align="center"}
+Fig. 8 : Test de Cusum de stabilité temporelle du modèle 1
+:::
+
+\newline
+
+Le second test de Brown, Durbin et Evans (1975) est fondé sur le Cusumsquare, ie les sommes des carrés résidus :
+
+```{=tex}
+\begin{equation}
+\label{eq:sr}
+s_r = \frac{\overset{r}{\underset{i=K+1}{\sum}} w_j^2}{\overset{n}{\underset{i=K+1}{\sum}} w_j^2}
+\end{equation}
+```
+Nous comparons la significativité de l'écart de $s_r$ à son espérance sous l'hypothèse nulle de constance des coefficients $H_0$, grâce à un couple de droites parallèles. Nous remarquons qu'à partir de 1998, la statistique $s_r$ est au-delà des valeurs limites.
+
+```{r echo=FALSE, warning=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 #
 # Test Cusum Square
 #
@@ -202,23 +292,63 @@ matplot(c(t3), cusum2, type ="l")
 
 ```
 
+::: {align="center"}
+Fig. 9 : Test de Cusumsquare de stabilité temporelle du modèle 1
+:::
+
+Une fois que la période de rupture est approximativement estimée, nous pouvons mettre en oeuvre le test de Chow (1960), qui permet de savoir si les paramètres du modèle ont été modifiés à partir d'un rang d'observation. Le test de Chow effectue une régression sur un échantillon de $n$ obervations (hypothèse nulle $H_0$) contre une alternative de l'estimation du modèle sur deux sous-périodes $n_1$ et $n_2$ avec $n_1 + n_2 = n$. L'hypothèse nulle s'exprime sous la forme :
+
+```{=tex}
+\begin{equation}
+\label{eq:H0chow}
+H_0 : y = X\beta + \varepsilon 
+\end{equation}
+```
+Le test de Chow calcul une statistique de Fischer fondée sur la somme des carrés des résidisu sur l'échantillon complet $SCR_0$ ey la somme des carrés des résidus du moèle alternatif $SCR_1$ sur chaque sous-période:
+
+```{=tex}
+\begin{equation}
+\label{eq:statF}
+F(K,n-2K) = \frac{\frac{SCR_0 - SCR_1}{K}}{\frac{SCR_1}{n - 2K}}
+\end{equation}
+```
+La p-value est-en dessous de 5%, donc nous pouvons rejeter $H_0$ de la régression du modèle. Pour dater précisément l'année de rupture, il faut évaluer la statistique de Fischer. Celle-ci est la plus élevée pour l'année 2001, avec F= 11,39. La rupture a donc lieu en 2001.
+
 ```{r echo=FALSE}
 #sctest(y ~ x, type = "Chow", point =)
 # pour R, la rupture est test?e non pas sur 1979-1980 mais sur 1979. 
 #Sur Eviews, la rupture est test?e sur 1980/
 g <- NULL
-for(i in 14:18) {
+for(i in 10:19) {
 
 g <- rbind(g,c(1985+i,sctest(y ~ x, type = "Chow", point = i)))
 }
 
 
-kable(g, booktabs = T, linesep = "", caption = "Test de Chow de 1999 à 2003") %>% 
+kable(g, booktabs = T, linesep = "", caption = "Test de Chow de 1995 à 2004") %>% 
 kable_styling(latex_options = "hold_position", full_width = T,font_size = 7) %>% 
   row_spec(0, bold = T) %>% 
 column_spec(1, bold = T)
 ```
 
+# Estimation et tests de stabilité temporelle du modèle 2
+
+## Estimation du modèle 2 en séparant les variables explicatives par sous-période
+
+En observant la figure 3 (cf. supra), le prix du diesel est la série marquée par la plus grande variance. Nous essayons donc de séparer la variable explicative prix du diesel sur deux sous-périodes : une allant de 1985 à 2000 et l'autre de 2001 à 2019. Nous créons une nouvelle variable $\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}}$ (toutes les valeurs de la variable de 1985 à 2000 sont nulles) dissociée de la variable $\frac{P_{diesel}^{1985-2000}{IPC^{1985-2000}}$ (toutes les valeurs de la variable de 2001 à 2019 sont nulles).
+
+```{=tex}
+\begin{equation}
+    \label{eq:modele2}
+    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
+\end{equation}
+```
+
+<div>
+
+Toutes les variables obtenues sont significatives au seuil de 5%. La variable $x1$ désigne l'effet du prix du diesel de 1985 à 2000 et la variable $x2$ l'effet du prix du diesel de 2001 à 2019. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ représnete le PIB en volume. La variable $x4$ vise la quantité de transport par route. Le coefficient de détermination $R^2$ est de $94\%$, ce qui signifie une forte adéquation entre le modèle et les données observées.
+
+</div>
 
 ```{r echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 n=length(Transport_France2019$Qdieselcamion)
@@ -255,31 +385,93 @@ scr = t(res) %*% res
 d1 = t(res) %*% res
 d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
 dw = d2/d1
-print (dw)
 
+
+
+```
+## Tests de stabilité temporelle
+
+Si on effectue un test de Cusumsquare \ref{eq:modele1}, nous observons toujours une instabilité temporelle comme le démontre la figure 10. 
+
+```{r echo=FALSE, warning=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
+Wr <- efp(y ~ x, type = "Rec-CUSUM")
+
+
+#
+# Test Cusum Square
+#
+rr <- (recresid(y ~ x))
+rr <- rr^2
+cumrr <- cumsum(rr)/scr
+#
+# Valeurs seuil de la distribution Cusum
+#
+c0 = 0.18915
+
+kp2=K+1
+c0 = 0.18915 # valeur critique de c0
+
+t2 <- ts(kp2:n)
+t3=t2-1
+smin <-((t2-k)/(n-k))-c0
+smax <- ((t2-k)/(n-k))+c0
+#
+vec2 <- c(smin, cumrr, smax)
+cusum2 <- matrix(vec2, ncol = 3); 
+matplot(c(t3), cusum2, type ="l")
+
+```
+::: {align="center"}
+Fig. 10 : Test de Cusumsquare de stabilité temporelle du modèle 2
+:::
+
+Etant donné que le test de Chow ne fonctionne pas sur la fin de la série temporelle en l'espèce, nous observons le comportement des résidus du modèle (cf. figure 11). Nous remarquons que les résidus du modèle en valeur absolue augmentent durant les dernières années. La valeur réelle de $y$ est beaucoup plus forte que la valeur estimée par le modèle. Nous pouvons donc supposer que le modèle a surestimé l'élasticité-prix de la demande de gazole, car la période de 2017 à 2019 est associée à une forte hausse des prix du carburant. La consommation n'a pas chuté, car il s'agirait de dépenses contraintes pour les entreprises du secteur des transport. Nous couperons donc la dernière valeur aberrante de l'année 2019. 
+
+
+
+```{r, out.width = '70%', out.height = '70%', fig.align='center'}
 ggplot()+
   geom_line(aes(x=Transport_France2019$Year, y=res, color="Résidus"))+
   geom_line(aes(x=Transport_France2019$Year, y=y, color="Valeur estimée de y \n par le modèle"))+
   geom_line(aes(x=Transport_France2019$Year, y=yf, color="Valeur réelle de y"))+
   labs(x = "Année", y = "Consommation de gazole par camion (en milliers de tonnes)", title = "Fig.8 Comparaison des résidus et \n des valeurs estimées par le modèle 1") + 
-    theme(axis.text=element_text(size=7),axis.title=element_text(size=8),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
+    theme(axis.text=element_text(size=7),axis.title=element_text(size=11),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
-
 ```
+::: {align="center"}
+Fig. 11 : Courbe des résidus
+:::
+
+
+
+# Estimation et tests de validité du modèle 3
+
+## Estimation du modèle 3
+
+Il s'agit du même modèle présenté à l'équation \ref{eq:modele2}, mais sans la valeur de l'année 2019. 
+
+```{=tex}
+\begin{equation}
+    \label{eq:modele3}
+    Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2018}{IPC^{2001-2018}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
+\end{equation}
+```
+
+Les variables obtenues sont significatives au seuil de 5%. La variable $x1$ désigne l'effet du prix du diesel de 1985 à 2000 et la variable $x2$ l'effet du prix du diesel de 2001 à 2019. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ représnete le PIB en volume. La variable $x4$ vise la quantité de transport par route. Le coefficient de détermination $R^2$ de $97\%$ est plus élevé que pour les modèles 1 (cf. équation \ref{eq:modele1}) et modèle 2 \ref{eq:modele2}).
 
 
 ```{r echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
-n=length(Transport_France2019$Qdieselcamion[1:33])
+n=length(Transport_France2019$Qdieselcamion[1:34])
 
-P1 <- replicate(33, 0)
+P1 <- replicate(34, 0)
 P1[1:16] <-  Transport_France2019$Pdiesel[1:16]/Transport_France2019$CPI[1:16]
 
-P2 <- replicate(33, 0)
-P2[17:33] <-  Transport_France2019$Pdiesel[17:33]/Transport_France2019$CPI[17:33]
+P2 <- replicate(34, 0)
+P2[17:34] <-  Transport_France2019$Pdiesel[17:34]/Transport_France2019$CPI[17:34]
 
-vec <- c(P1,P2, Transport_France2019$"PIB en volume (en milliards d'euros 2014)"[1:33],Transport_France2019$Qtt_Trsp_route[1:33])
+vec <- c(P1,P2, Transport_France2019$"PIB en volume (en milliards d'euros 2014)"[1:34],Transport_France2019$Qtt_Trsp_route[1:34])
 X <- matrix( vec, ncol=4) 
-Y=matrix(Transport_France2019$Qdieselcamion[1:33],n,1)
+Y=matrix(Transport_France2019$Qdieselcamion[1:34],n,1)
 q=ncol(Y);
 k=ncol(X);
 K=k+1
@@ -303,25 +495,56 @@ scr = t(res) %*% res
 
 d1 = t(res) %*% res
 d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
-dw = d2/d1
-print (dw)
-
-ggplot()+
-  geom_line(aes(x=Transport_France2019$Year[1:33], y=res, color="Résidus"))+
-  geom_line(aes(x=Transport_France2019$Year[1:33], y=y, color="Valeur estimée de y \n par le modèle"))+
-  geom_line(aes(x=Transport_France2019$Year[1:33], y=yf, color="Valeur réelle de y")) +
-  labs(x = "Année", y = "Consommation de gazole par camion (en milliers de tonnes)", title = "Fig.9 Comparaison des résidus et \n des valeurs estimées par le modèle 2") + 
-    theme(axis.text=element_text(size=7),axis.title=element_text(size=9),title = element_text(size=12), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
-  scale_x_continuous(breaks=seq(1985,2020,5))
 
 ```
+## Tests de validité 
+
+### Test de stabilité temporelle
+
+Le test de Cusumsquare \ref{eq:sr} décrit supra confirme l'absence de rupture dans le modèle 3. 
+```{r echo=FALSE}
+Wr <- efp(y ~ x, type = "Rec-CUSUM")
+
+
+#
+# Test Cusum Square
+#
+rr <- (recresid(y ~ x))
+rr <- rr^2
+cumrr <- cumsum(rr)/scr
+#
+# Valeurs seuil de la distribution Cusum
+#
+c0 = 0.18915
+
+kp2=K+1
+c0 = 0.18915 # valeur critique de c0
+
+t2 <- ts(kp2:n)
+t3=t2-1
+smin <-((t2-k)/(n-k))-c0
+smax <- ((t2-k)/(n-k))+c0
+#
+vec2 <- c(smin, cumrr, smax)
+cusum2 <- matrix(vec2, ncol = 3); 
+matplot(c(t3), cusum2, type ="l")
+
+```
+::: {align="center"}
+Fig. 12 : Test de Cusumsquare de stabilité temporelle du modèle 3
+:::
+
+### Test d'autocorrélation des résidus 
 ```{r echo=FALSE}
 
 bgtest(y ~ x, order=2) %>% pander
 ```
+### Test de normalité des résidus 
+
 ```{r echo=FALSE}
 jarque.bera.test(res) %>% pander
 ```
+### Test de normalité des résidus d'homoscédasticité
 
 ```{r echo=FALSE}
 #sans terme croisé / pure test d'homoscédaticité
@@ -330,6 +553,9 @@ white_lm(OLS, interactions = FALSE, statonly = FALSE) %>% pander
 bptest(y ~ x, varformula = NULL, studentize = TRUE, data = list()) %>% pander
 
 ```
+
+
+# Prévisions à l'horizon 2025 à partir du modèle 3
 
 ```{r echo=FALSE}
 Transport_France2019_prev <- read_excel("Transport_France2019_v2_prev.xlsx")
@@ -412,6 +638,7 @@ rmse=sqrt(t(Transport_France2019_prev$Qdieselcamion[34:35]-z[1:2,2])%*% (Transpo
 cat("Valeur de l'erreur quadratique moyenne RMSE (sur les années 2018 et 2019) :",rmse)
 
 ```
+
 ```{r eval=FALSE, include=FALSE}
 Transport_France2019_prev <- read_excel("Transport_France2019_v2_prev.xlsx")
 
@@ -430,5 +657,3 @@ nprev=8
 rmse=sqrt(t(Transport_France2019_prev$Qdieselcamion[34:35]-prevy[1:2])%*% (Transport_France2019_prev$Qdieselcamion[34:35]-prevy[1:2])/2)
 print(rmse)
 ```
-
-
