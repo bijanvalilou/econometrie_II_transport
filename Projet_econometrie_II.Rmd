@@ -93,33 +93,33 @@ column_spec(1, bold = T)
 ##Graph en niveau
 plt1 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Qtt_Trsp_route))+
-labs(x = "Année", y = "Quantités transportées \n par route", title = "Fig. 1 Quantités transportées \n par route") + 
+labs(x = "Année", y = "Quantités transportées \n par route", title = "Fig. A Quantités transportées \n par route") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 
 plt2 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Qtt_Trsp_train))+
-labs(x = "Année", y = "Quantités transportées \n par train", title = "Fig. 2 Quantités transportées \n par train") + 
+labs(x = "Année", y = "Quantités transportées \n par train", title = "Fig. B Quantités transportées \n par train") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 plt3 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$Pdiesel))+
-labs(x = "Année", y = "Prix du disel \n (euros/litre de diesel)", title = "Fig. 3 Prix du diesel") + 
+labs(x = "Année", y = "Prix du disel \n (euros/litre de diesel)", title = "Fig. C Prix du diesel") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 plt4 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$"PIB en volume (en milliards d'euros 2014)"))+
-labs(x = "Année", y = "PIB en volume \n (en milliards d'euros 2014)", title = "Fig. 4 Produit intérieur brut") + 
+labs(x = "Année", y = "PIB en volume \n (en milliards d'euros 2014)", title = "Fig. D Produit intérieur brut") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 
 plt5 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$QDiesel))+
-labs(x = "Année", y = "Quantité de diesel consommé \n (en milliers de tonnes)", title = "Fig. 5 Quantité totale \n de diesel consommé") + 
+labs(x = "Année", y = "Quantité de diesel consommé \n (en milliers de tonnes)", title = "Fig. E Quantité totale \n de diesel consommé") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
@@ -131,12 +131,12 @@ labs(x = "Année", y = "Quantité de diesel consommé \n (milliers de tonnes)", 
 
 plt7 <- ggplot() + 
   geom_line( aes(x = Transport_France2019$Year,y = Transport_France2019$CPI))+
-labs(x = "Année", y = "Indice de prix à la consommation \n (base 100 = 2015)", title = "Fig.7 Prix à la consommation") + 
+labs(x = "Année", y = "Indice de prix à la consommation \n (base 100 = 2015)", title = "Fig.F Prix à la consommation") + 
     theme(axis.text=element_text(size=5),axis.title=element_text(size=6),title = element_text(size=7), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 
 
-figure <- ggarrange(plt1, plt2, plt3, plt4,plt5, plt6,"",plt7, ncol=3, nrow = 3, heights = c(1, 1))
+figure <- ggarrange(plt1, plt2, plt3, plt4,plt5,plt7, ncol=3, nrow = 2, heights = c(1, 1))
 annotate_figure(figure,
                top = text_grob("Présentation des variables", face = "bold", size = 14))
 
@@ -433,8 +433,8 @@ ggplot()+
   geom_line(aes(x=Transport_France2019$Year, y=res, color="Résidus"))+
   geom_line(aes(x=Transport_France2019$Year, y=y, color="Valeur estimée de y \n par le modèle"))+
   geom_line(aes(x=Transport_France2019$Year, y=yf, color="Valeur réelle de y"))+
-  labs(x = "Année", y = "Consommation de gazole par camion (en milliers de tonnes)", title = "Fig.8 Comparaison des résidus et \n des valeurs estimées par le modèle 1") + 
-    theme(axis.text=element_text(size=7),axis.title=element_text(size=11),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
+  labs(x = "Année", y = "Consommation de gazole par camion (en milliers de tonnes)") + 
+    theme(axis.text=element_text(size=7),axis.title=element_text(size=8),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(1985,2020,5))
 ```
 
@@ -692,8 +692,8 @@ ggplot()+
   geom_line(aes(x=z[,1], y=z[,2], color="Valeur de la prévision"))+
   geom_line(aes(x=z[,1], y=z[,3], color="Borne inférieure"))+
   geom_line(aes(x=z[,1], y=z[,4], color="Borne supérieure"))+
-  labs(x = "Année", y = "Consommation de gazole par camion (en milliers de tonnes)", title = "Fig.13 Prévisions à l'horizon 2025") + 
-    theme(axis.text=element_text(size=7),axis.title=element_text(size=11),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
+  labs(x = "Année", y = "Consommation de gazole par \n camion (en milliers de tonnes)") + 
+    theme(axis.text=element_text(size=7),axis.title=element_text(size=9),title = element_text(size=9), plot.title = element_text(hjust = 0.5, vjust = 0.5)) +
   scale_x_continuous(breaks=seq(2019,2025,1))
 ```
 
