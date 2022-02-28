@@ -11,6 +11,7 @@ output:
     highlight: tango
     latex_engine: lualatex
     fig_caption: yes
+    keep_tex: yes
   html_document:
     toc: yes
     toc_depth: 5
@@ -169,7 +170,7 @@ Nous avons finalement choisis trois variables pour notre modèle :
     Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}}{IPC} +  \beta_2*PIB + \beta_3*Q_{route} + \varepsilon
 \end{equation}
 ```
-Le premier modèle (1) suit l'équation \ref{eq:modele1} avec les variables :
+Le premier modèle (1) suit l'équation avec les variables :
 
 -   $Q_{DCamion}$ : La quantité de diesel consommée par les camions ;
 
@@ -183,11 +184,11 @@ Le premier modèle (1) suit l'équation \ref{eq:modele1} avec les variables :
 
 -   $\beta_n$ : Le coefficient associé à la n-ième variable explicative.
 
-<div>
+
 
 Toutes les variables obtenues sont significatives, car la probabilité qu'elles soient nulles est inférieure à 5%. La variable $x1$ désigne l'effet du prix du diesel, déflaté du niveau général des prix, qui a un effet négatif très fort sur la consommation de diesel des camions. Le gazole est donc un bien ordinaire, avec une élasticité-prix négative de la demande. La variable $x2$ représente l'effet du PIB mesuré en volume. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ vise la quantité de transport par route, qui a un effet positif sur la consommation de diesel. Le coefficient de détermination $R^2$ est de $94\%$, ce qui signifie une forte adéquation entre le modèle et les données observées.
 
-</div>
+
 
 ```{r, echo=FALSE}
 n=length(Transport_France2019$Qdieselcamion)
@@ -342,11 +343,11 @@ En observant la figure 3 (cf. supra), le prix du diesel est la série marquée p
     Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2019}}{IPC^{2001-2019}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
 \end{equation}
 ```
-<div>
+
 
 Toutes les variables obtenues sont significatives au seuil de 5%. La variable $x1$ désigne l'effet du prix du diesel de 1985 à 2000 et la variable $x2$ l'effet du prix du diesel de 2001 à 2019. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ représnete le PIB en volume. La variable $x4$ vise la quantité de transport par route. Le coefficient de détermination $R^2$ est de $94\%$, ce qui signifie une forte adéquation entre le modèle et les données observées.
 
-</div>
+
 
 ```{r echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 n=length(Transport_France2019$Qdieselcamion)
@@ -390,7 +391,7 @@ dw = d2/d1
 
 ## Tests de stabilité temporelle
 
-Si on effectue un test de Cusumsquare \ref{eq:modele1} , nous observons toujours une instabilité temporelle comme le démontre la figure 10.
+Si on effectue un test de Cusumsquare , nous observons toujours une instabilité temporelle comme le démontre la figure 10.
 
 ```{r echo=FALSE, warning=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 Wr <- efp(y ~ x, type = "Rec-CUSUM")
@@ -427,7 +428,7 @@ Fig. 10 : Test de Cusumsquare de stabilité temporelle du modèle 2
 
 Etant donné que le test de Chow ne fonctionne pas sur la fin de la série temporelle en l'espèce, nous observons le comportement des résidus du modèle (cf. figure 11). Nous remarquons que les résidus du modèle en valeur absolue augmentent durant les dernières années. La valeur réelle de $y$ est beaucoup plus forte que la valeur estimée par le modèle. Nous pouvons donc supposer que le modèle a surestimé l'élasticité-prix de la demande de gazole, car la période de 2017 à 2019 est associée à une forte hausse des prix du carburant. La consommation n'a pas chuté, car il s'agirait de dépenses contraintes pour les entreprises du secteur des transport. Nous couperons donc la dernière valeur aberrante de l'année 2019.
 
-```{r, out.width = '70%', out.height = '70%', fig.align='center'}
+```{r echo=FALSE, fig.align='center', out.height='70%', out.width='70%'}
 ggplot()+
   geom_line(aes(x=Transport_France2019$Year, y=res, color="Résidus"))+
   geom_line(aes(x=Transport_France2019$Year, y=y, color="Valeur estimée de y \n par le modèle"))+
@@ -445,7 +446,7 @@ Fig. 11 : Courbe des résidus
 
 ## Estimation du modèle 3
 
-Il s'agit du même modèle présenté à l'équation \ref{eq:modele2}, mais sans la valeur de l'année 2019.
+Il s'agit du même modèle présenté précédemment, mais sans la valeur de l'année 2019.
 
 ```{=tex}
 \begin{equation}
@@ -453,7 +454,7 @@ Il s'agit du même modèle présenté à l'équation \ref{eq:modele2}, mais sans
     Q_{DCamion} = \beta_0 + \beta_1*\frac{P_{diesel}^{1985-2000}{IPC^{1985-2019}} + \beta_2*\frac{P_{diesel}^{2001-2018}{IPC^{2001-2018}} + \beta_3*PIB + \beta_4*Q_{route} + \varepsilon
 \end{equation}
 ```
-Les variables obtenues sont significatives au seuil de 5%. La variable $x1$ désigne l'effet du prix du diesel de 1985 à 2000 et la variable $x2$ l'effet du prix du diesel de 2001 à 2019. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ représnete le PIB en volume. La variable $x4$ vise la quantité de transport par route. Le coefficient de détermination $R^2$ de $97\%$ est plus élevé que pour les modèles 1 (cf. équation \ref{eq:modele1}) et modèle 2 \ref{eq:modele2}).
+Les variables obtenues sont significatives au seuil de 5%. La variable $x1$ désigne l'effet du prix du diesel de 1985 à 2000 et la variable $x2$ l'effet du prix du diesel de 2001 à 2019. Le coefficient associé est positif, ce qui signifie que l'augmentation du produit intérieur a un effet sectoriel positif sur le secteur du transport par camion et donc de la consommation de gazole. La variable $x3$ représnete le PIB en volume. La variable $x4$ vise la quantité de transport par route. Le coefficient de détermination $R^2$ de $97\%$ est plus élevé que pour les modèles 1 et modèle 2 .
 
 ```{r echo=FALSE, out.width = '70%', out.height = '70%', fig.align='center'}
 n=length(Transport_France2019$Qdieselcamion[1:34])
@@ -497,9 +498,9 @@ d2 =  t(res[2:n]-res[1:n-1]) %*% (res[2:n]-res[1:n-1])
 
 ### Test de stabilité temporelle
 
-Le test de Cusumsquare \ref{eq:sr} décrit supra confirme l'absence de rupture dans le modèle 3.
+Le test de Cusumsquare décrit supra confirme l'absence de rupture dans le modèle 3.
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
 Wr <- efp(y ~ x, type = "Rec-CUSUM")
 
 
@@ -534,7 +535,7 @@ Fig. 12 : Test de Cusumsquare de stabilité temporelle du modèle 3
 
 ### Test d'autocorrélation des résidus
 
-Le test de Breusc-Godrey permet de tester la significativité du coefficient $\rho$ qui représente l'autocorrélation des résidus :
+Le test de Breusch-Godrey permet de tester la significativité du coefficient $\rho$ qui représente l'autocorrélation des résidus :
 
 ```{=tex}
 \begin{equation}
@@ -698,7 +699,7 @@ ggplot()+
 
 Nous calculons l'erreur quadratique moyenne, qui est de 2268 milliers de tonnes par rapport à l'année 2019. Nous disposons, en effet, de la valeur réelle de $y$ en 2019.
 
-```{r}
+```{r echo=FALSE}
 rmse=sqrt(t(Transport_France2019_prev$Qdieselcamion[35]-z[2,2])%*% (Transport_France2019_prev$Qdieselcamion[35]-z[2,2])/2)
 cat("Valeur de l'erreur quadratique moyenne RMSE (sur les années 2018 et 2019) :",rmse)
 ```
